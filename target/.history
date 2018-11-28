@@ -1,0 +1,12 @@
+compile
+publishLocal
+compile
+fastOptJS
+publishLocal
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /tmp/sbt-structure.xml; session clear-all
+compile
+clean
+compile
+publishLocal
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /tmp/sbt-structure.xml; session clear-all
+publishLocal
