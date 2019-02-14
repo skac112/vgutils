@@ -4,7 +4,7 @@
 		module="vgutils-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20181120132726"
+		publication="20190112215916"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
@@ -48,6 +48,6 @@
 		</dependency>
 		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.6" transitive="false" conf="ensime-internal->default(compile)"/>
 		<dependency org="org.scala-lang" name="scalap" rev="2.10.6" transitive="false" conf="ensime-internal->default(compile)"/>
-		<dependency org="org.scala-js" name="sbt-scalajs" rev="0.6.21" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
+		<dependency org="org.scala-js" name="sbt-scalajs" rev="0.6.26" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
 	</dependencies>
 </ivy-module>

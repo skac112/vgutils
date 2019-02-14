@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="vgutils">
+    <option name="incrementalityType" value="SBT" />
+    <profile name="sbt 1" modules="vgutils,vgutilsJVM" />
+    <profile name="sbt 2" modules="root,vgutilsJS">
       <plugins>
-        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.4/jars/scalajs-compiler_2.12.4-0.6.21.jar" />
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.8/jars/scalajs-compiler_2.12.8-0.6.26.jar" />
       </plugins>
     </profile>
   </component>
