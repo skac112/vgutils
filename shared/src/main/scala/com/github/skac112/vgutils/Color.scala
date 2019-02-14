@@ -10,6 +10,7 @@ object Color {
   def yellow(v: Double = 1.0) = new Color(v, v, .0)
   lazy val white = Color(1.0, 1.0, 1.0)
   lazy val black = Color(.0, .0, .0)
+  val transparent = Color(.0, .0, .0, .0)
 
   def normalize(v: Double) = v match {
     case v if v > 1.0 => 1.0
@@ -19,7 +20,7 @@ object Color {
 
   lazy val pi_3_inv = 3.0 / Pi
 
-  def hsl(hue: Angle, sat: Double, l: Double) = {
+  def hsla(hue: Angle, sat: Double, l: Double, a: Double = 1.0) = {
     // chroma
     val C = (1 - abs(2*l - 1.0))*sat
     val hue_p = hue.value * pi_3_inv
@@ -34,10 +35,8 @@ object Color {
       // case _ if hue_p >= 5 => (C, .0, X)
     }
     val m = l - 0.5 * C
-    Color(r1 + m, g1 + m, b1 + m)
+    Color(r1 + m, g1 + m, b1 + m, a)
   }
-
-  val transparent = Color(.0, .0, .0, .0)
 
   def hex2int(hex: String): Int = Integer.parseInt(hex, 16)
   def hex2double(hex: String) = hex2int(hex) / 255.0
@@ -109,10 +108,14 @@ case class Color(r: Double, g: Double, b: Double, a: Double = 1.0) {
      case _ => C / (1.0 - abs(2*l - 1.0))
    }
 
-  def addR(v: Double = 1.0) = Color(normalize(r + v), g, b)
-  def addG(v: Double = 1.0) = Color(r, normalize(g + v), b)
-  def addB(v: Double = 1.0) = Color(r, g, normalize(b + v))
-  def addH(v: Angle) = hsl(h + v, s, l)
-  def addS(v: Double) = hsl(h, normalize(s + v), l)
-  def addL(v: Double) = hsl(h, s, normalize(l + v))
+  def addR(v: Double = 1.0) = Color(normalize(r + v), g, b, a)
+  def addG(v: Double = 1.0) = Color(r, normalize(g + v), b, a)
+  def addB(v: Double = 1.0) = Color(r, g, normalize(b + v), a)
+  def addH(v: Angle) = hsla(h + v, s, l, a)
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+  def setH(new_h: Double) = hsla(new_h, s, l, a)
+  def setS(new_s: Double) = hsla(h, new_s, l, a)
+  def setL(new_l: Double) = hsla(h, s, new_l, a)
+  def setA(new_a: Double) = Color(r, g, b, new_a)
 }

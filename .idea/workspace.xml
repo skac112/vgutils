@@ -2,158 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a051d30-7b3f-4d20-9858-0faf32cb06b4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/UniScaleTransl.scala" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_js_scalajs_library_2_12_0_6_21_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_js_scalajs_test_interface_2_12_0_6_21_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutils-build.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutils.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" afterPath="$PROJECT_DIR$/project/plugins.sbt" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ddb76ff325ce578275c6$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ddb76ff325ce578275c6.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ddb76ff325ce578275c6.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3b6fd2ed092bc67d7184$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3b6fd2ed092bc67d7184$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3b6fd2ed092bc67d7184.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3b6fd2ed092bc67d7184.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$668d76f2343bf768d388$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$668d76f2343bf768d388$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$668d76f2343bf768d388.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$668d76f2343bf768d388.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$71686661b5e6bf278afd$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$71686661b5e6bf278afd$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$71686661b5e6bf278afd.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$71686661b5e6bf278afd.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c97a2a82c255a7f062a$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c97a2a82c255a7f062a$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c97a2a82c255a7f062a.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c97a2a82c255a7f062a.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8eb31610f7fe7c8ac4f7$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8eb31610f7fe7c8ac4f7$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8eb31610f7fe7c8ac4f7.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8eb31610f7fe7c8ac4f7.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$be5396392090d550af83$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$be5396392090d550af83$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$be5396392090d550af83.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$be5396392090d550af83.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfde764e6667d05dba05$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfde764e6667d05dba05$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfde764e6667d05dba05.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfde764e6667d05dba05.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e60c537fada5f001c870$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e60c537fada5f001c870$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e60c537fada5f001c870.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e60c537fada5f001c870.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ef2b7df1f5c836480aa5$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ef2b7df1f5c836480aa5.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ef2b7df1f5c836480aa5.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/default/vgutils-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/default/vgutils-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/default/vgutils-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/default/vgutils-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-docs.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-ensime-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-ensime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-sources.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-test.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-vgutils-build-test.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/skac112/vgutils/Angle.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Angle.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/skac112/vgutils/Bounds.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Bounds.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/skac112/vgutils/Color.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Color.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/skac112/vgutils/Line.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Line.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/skac112/vgutils/LineSec.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/LineSec.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/skac112/vgutils/MathUtils.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/MathUtils.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/skac112/vgutils/Point.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Point.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/skac112/vgutils/package.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/package.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/skac112/vgutils/transform/Affine.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Affine.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/skac112/vgutils/transform/GenericLinear.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/GenericLinear.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/skac112/vgutils/transform/Linear.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Linear.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/skac112/vgutils/transform/Rotation.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Rotation.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/skac112/vgutils/transform/Scale.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Scale.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/skac112/vgutils/transform/Transl.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Transl.scala" />
-      <change beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/JS_DEPENDENCIES" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/JS_DEPENDENCIES" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Angle$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Angle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Bounds$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Bounds.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Color$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Line$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Line.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/LineSec$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/LineSec.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$EllipseCalc$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Point$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Point.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/package$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/package.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Affine$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Affine.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/GenericLinear.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Linear$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Linear.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Rotation$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Rotation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Scale$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Scale.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Transl$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Transl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/ivy-0.0.1-SNAPSHOT.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/ivy-0.0.1-SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructureTo/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructureTo/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/deliverLocal/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/deliverLocal/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/makePom/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/makePom/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/publishLocal/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/publishLocal/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/output" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/output" afterPath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/output" afterPath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Color.scala" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Color.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -188,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Color.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Color.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Color.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="112" column="42" lean-forward="true" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -248,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -587,7 +436,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27682737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36461538" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt-shell-toolwindow" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22923078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2527216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1003,18 +852,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Color.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Color.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="184">
+          <caret line="112" column="42" lean-forward="true" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
           <folding />
         </state>
       </provider>
