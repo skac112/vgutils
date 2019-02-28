@@ -30,3 +30,5 @@ fastOptJS
 publishLocal
 fastOptJS
 publishLocal
+compile
+publishLocal

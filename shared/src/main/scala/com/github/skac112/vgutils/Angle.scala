@@ -72,7 +72,8 @@ case class Angle(initX: Double, initY: Double, initValue: Double) {
   def +(other: Double) = Angle(0, 0, value + other)
   def -(other: Angle) = Angle(0, 0, value - other.value)
   def -(other: Double) = Angle(0, 0, value - other)
-  def *(factor: Double) = Angle(0, 0, factor * value)
+  def *(factor: Double) = Angle(0, 0, value / factor)
+  def /(factor: Double) = Angle(0, 0, value / factor)
   // def normalize(value: Double): Angle = Angle(Angle.normVal(value))
   // lazy val normVal: Double = Angle.normVal(value)
   def toDeg = rtdF * value
