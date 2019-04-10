@@ -23,6 +23,7 @@ object Bounds {
  * - infinite bounds
  */
 case class Bounds(tl: Point, br: Point, boundsType: Symbol = 'NORMAL_BOUNDS) {
+  import Bounds._
   /**
    * Width of these bounds.
    */
@@ -62,4 +63,16 @@ case class Bounds(tl: Point, br: Point, boundsType: Symbol = 'NORMAL_BOUNDS) {
     val p = Point(new_w, new_h) * .5
     Bounds(mid - p, mid + p)
   }
+
+  def area = w * h
+
+  /**
+    * Determines if these bounds have some common area with other bounds. It excludes cases of mere touching.
+    * @param other
+    */
+  def intersectsWith(other: Bounds) =
+    (tl.x < other.br.x) &&
+    (br.x > other.tl.x) &&
+    (tl.y < other.br.y) &&
+    (br.y > other.tl.y)
 }

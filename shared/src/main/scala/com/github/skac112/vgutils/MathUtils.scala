@@ -110,7 +110,7 @@ object MathUtils {
       def tau1 = (1.0, .0) ang p_ang1
       val p_ang2 = ((-p1p.x - cp.x) / a, (-p1p.y - cp.y) / b)
       def delta_tau1 = p_ang1 angSig p_ang2
-      val delta_tau: Double = if (!sf && (delta_tau1 > .0)) delta_tau1.value - 2 * Pi else if (sf && (delta_tau1 < .0)) delta_tau1.value + 2 * Pi else delta_tau1.value
+      val delta_tau: Double = if (!sf && (delta_tau1 > .0)) delta_tau1 - 2 * Pi else if (sf && (delta_tau1 < .0)) delta_tau1 + 2 * Pi else delta_tau1
       (tau1, delta_tau, c)
     }
 

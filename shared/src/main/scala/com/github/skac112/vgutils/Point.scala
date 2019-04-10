@@ -19,6 +19,15 @@ object Point {
  */
 case class Point(x: Double, y: Double) {
   import Point._
+
+  /**
+    * Alternative constructor - creates point for given modulus and direction.
+    * @param modulus
+    * @param dir
+    * @return
+    */
+  def this(modulus: Double, dir: Angle) = this(modulus*dir.x, modulus*dir.y)
+
   lazy val modulus = sqrt(x * x + y * y)
   lazy val modulus2 = x * x + y * y
   lazy val inv = Point(-x, -y)

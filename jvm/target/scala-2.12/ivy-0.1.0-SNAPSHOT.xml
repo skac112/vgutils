@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="skac" module="vgutils_2.12" revision="0.1.0-SNAPSHOT" status="integration" publication="20190228144741">
+	<info organisation="skac" module="vgutils_2.12" revision="0.1.0-SNAPSHOT" status="integration" publication="20190410143946">
 		<description>
 		vgutils
 		</description>

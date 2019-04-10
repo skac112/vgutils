@@ -13,14 +13,14 @@ case class LineSec(p1: Point, p2: Point) {
   /**
     * Length of a line section.
     */
-  lazy val len = (p1 - p2).modulus
+  lazy val len = vector.modulus
 
   /**
     * Square of a length of a line section.
     * @param other
     * @return
     */
-  lazy val len2 = (p1 - p2).modulus2
+  lazy val len2 = vector.modulus2
 
   /**
    * Finds a point of intersection (if any) od this line section with another
@@ -48,4 +48,8 @@ case class LineSec(p1: Point, p2: Point) {
         None
       }
   }
+
+  lazy val vector = p2 - p1
+
+  lazy val slope: Angle = vector.angle
 }

@@ -52,9 +52,11 @@ case class Angle(initX: Double, initY: Double, initValue: Double) {
 
   lazy val modulus = sqrt(initX*initX + initY*initY)
 
-  lazy val fullComplement = Angle(0, 0, 2*Pi - value)
+  lazy val complement = Angle(0, 0, 2*Pi - value)
 
-  lazy val unary_- = Angle(0, 0, Pi + value)
+  lazy val unary_- = complement
+
+  lazy val opposite = Angle(.0, .0, value + Pi)
 
   lazy val versor = Point(x, y)
 
@@ -72,7 +74,7 @@ case class Angle(initX: Double, initY: Double, initValue: Double) {
   def +(other: Double) = Angle(0, 0, value + other)
   def -(other: Angle) = Angle(0, 0, value - other.value)
   def -(other: Double) = Angle(0, 0, value - other)
-  def *(factor: Double) = Angle(0, 0, value / factor)
+  def *(factor: Double) = Angle(0, 0, value * factor)
   def /(factor: Double) = Angle(0, 0, value / factor)
   // def normalize(value: Double): Angle = Angle(Angle.normVal(value))
   // lazy val normVal: Double = Angle.normVal(value)

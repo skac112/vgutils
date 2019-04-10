@@ -61,13 +61,18 @@ case class Color(r: Double, g: Double, b: Double, a: Double = 1.0) {
       })
     }
 
-    case _ => {
-      val r_int = round(r * 255)
-      val g_int = round(g * 255)
-      val b_int = round(b * 255)
-      s"rgba($r_int, $g_int, $b_int, $a)"
-    }
+    case _ => s"rgba($rInt, $gInt, $bInt, $a)"
   }
+
+  lazy val rInt: Int = round(r * 255).toInt
+
+  lazy val gInt: Int = round(g * 255).toInt
+
+  lazy val bInt: Int = round(b * 255).toInt
+
+  lazy val aInt: Int = round(a * 255).toInt
+
+  lazy val toInt: Int = (aInt << 24) + (rInt << 16) + (gInt << 8) + bInt
 
   private lazy val M =  List(r, g, b).max
 
