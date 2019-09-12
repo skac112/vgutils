@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/slawek/Dokumenty/projekty/vgutils/jvm/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/Color.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/Color.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/Angle.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/Angle.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/Point.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/Point.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/Bounds.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/Bounds.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/MathUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/MathUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/LineSec.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/LineSec.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/Line.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/Line.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/transform/Scale.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/transform/Scale.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/transform/UniScaleTransl.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/transform/UniScaleTransl.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/transform/Rotation.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/transform/Rotation.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/transform/Affine.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/transform/Affine.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/transform/Transl.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/transform/Transl.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/transform/Linear.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/transform/Linear.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/skac112/vgutils/transform/GenericLinear.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/slawek/Dokumenty/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/transform/GenericLinear.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

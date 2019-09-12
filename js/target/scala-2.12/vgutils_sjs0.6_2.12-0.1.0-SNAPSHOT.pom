@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>skac</groupId>
+    <groupId>skac112</groupId>
     <artifactId>vgutils_sjs0.6_2.12</artifactId>
     <packaging>jar</packaging>
     <description>vgutils</description>
     <version>0.1.0-SNAPSHOT</version>
     <name>vgutils</name>
     <organization>
-        <name>skac</name>
+        <name>skac112</name>
     </organization>
     <dependencies>
         <dependency>
@@ -19,12 +19,12 @@
         <dependency>
             <groupId>org.scala-js</groupId>
             <artifactId>scalajs-library_2.12</artifactId>
-            <version>0.6.26</version>
+            <version>0.6.28</version>
         </dependency>
         <dependency>
             <groupId>org.scala-js</groupId>
             <artifactId>scalajs-test-interface_2.12</artifactId>
-            <version>0.6.26</version>
+            <version>0.6.28</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -34,12 +34,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <repositories>
-        <repository>
-            <id>ArtimaMavenRepository</id>
-            <name>Artima Maven Repository</name>
-            <url>http://repo.artima.com/releases/</url>
-            <layout>default</layout>
-        </repository>
-    </repositories>
 </project>

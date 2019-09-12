@@ -87,7 +87,7 @@ var $linkingInfo = {
 
   "assumingES6": false,
 
-  "linkerVersion": "0.6.26",
+  "linkerVersion": "0.6.28",
   "globalThis": this
 };
 $g["Object"]["freeze"]($linkingInfo);
@@ -386,7 +386,7 @@ var $comparableCompareTo = function(instance, rhs) {
       return instance === rhs ? 0 : (instance < rhs ? -1 : 1);
     case "number":
 
-      $as_jl_Number(rhs);
+      $asDouble(rhs);
 
       return $m_jl_Double$().compare__D__D__I(instance, rhs);
     case "boolean":
