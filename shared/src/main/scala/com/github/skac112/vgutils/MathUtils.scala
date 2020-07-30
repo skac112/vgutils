@@ -10,6 +10,14 @@ object MathUtils {
   type RealFun = Double => Double
   def integrate(fun: RealFun, from: Double, to: Double) = simpsonIntegr(fun, from, to, 1000)
 
+  /**
+   * Calculates value of definite integral of a given function and range. Uses Simpson's .
+   * @param fun
+   * @param from
+   * @param to
+   * @param n2
+   * @return
+   */
   def simpsonIntegr(fun: RealFun, from: Double, to: Double, n2: Int): Double = {
     val n = 2 * n2
     val h = (to - from) / n
@@ -17,9 +25,29 @@ object MathUtils {
 
     val sum = s1 +
     (0 to n2 - 1).foldLeft(0.0) {(acc: Double, i: Int) => {acc + 4 * fun(from + (2 * i  + 1) * h)}} +
-    (1 to n2 - 2).foldLeft(0.0) {(acc: Double, i: Int) => {acc + 2 * fun(from + (2 * i  + 2) * h)}}
+    (0 to n2 - 2).foldLeft(0.0) {(acc: Double, i: Int) => {acc + 2 * fun(from + (2 * i  + 2) * h)}}
 
     sum * h / 3
+  }
+
+  /**
+   *
+   * @param fun
+   * @param from
+   * @param to
+   * @param n2
+   * @return sequence of integral function. It has n2 + 1 values spaced equally between from and to value.
+   */
+  def simpsonIntegrFun(fun: RealFun, from: Double, to: Double, n2: Int): Seq[Double] = {
+    val n = 2 * n2
+    val h = (to - from) / n
+    val v1_3 = 1.0 / 3;
+    // each sequence has n2 points
+    val seq4 = (0 to n2 - 1).scanLeft(0.0) {(acc: Double, i: Int) => {acc + 4 * fun(from + (2 * i  + 1) * h)}} tail
+    val seq2 = fun(from) +: (0 to n2 - 2).scanLeft(fun(from)) {(acc: Double, i: Int) => {acc + 2 * fun(from + (2 * i  + 2) * h)}} tail
+    val seq_42 = (seq2 zip seq4).map {kv: (Double, Double) => kv._1 + kv._2}
+    //sic!
+    0.0 +: (seq_42 :+ (seq_42.last + fun(to))) map {_ *  h * v1_3}
   }
 
   /**
@@ -159,7 +187,7 @@ object MathUtils {
     def arcLenToTauF(a: Double, b: Double, sf: Boolean) = invFun(tauToArcLen(_, a, b, sf), 0, 2*Pi)
 
     /**
-     * Calculates incomplete elliptic integral.
+     * Calculates incomplete elliptic integral of the second kind.
      * Na podstawie: http://mathworld.wolfram.com/EllipticIntegraloftheSecondKind.html
      */
     def incEllInt(tau: Double, k: Double) = {

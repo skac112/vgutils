@@ -49,8 +49,10 @@ case class Color(r: Double, g: Double, b: Double, a: Double = 1.0) {
     hex2double(webStr.substring(2, 4)),
     hex2double(webStr.substring(4, 6)))
 
-  def +:(other: Color) = Color(normalize(r + other.r), normalize(g + other.g), normalize(b + other.b), a)
-  def -:(other: Color) = Color(normalize(r - other.r), normalize(g - other.g), normalize(b - other.b), a)
+//  def +:(other: Color) = Color(normalize(r + other.r), normalize(g + other.g), normalize(b + other.b), a)
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+  def -(other: Color) = ColorVector(r - other.r, g - other.g, b - other.b, a)
+  def -(other: ColorVector) = ColorVector(r - other.r, g - other.g, b - other.b, a)
 
   override lazy val toString = a match {
     case 1.0 => {

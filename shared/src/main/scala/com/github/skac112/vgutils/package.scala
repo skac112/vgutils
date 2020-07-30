@@ -20,4 +20,9 @@ package object vgutils {
   implicit def stringToCol(webStr: String) = new Color(webStr)
   implicit def tripleToCol(triple: (Double, Double, Double)) = Color(triple._1, triple._2, triple._3)
   implicit def quadToCol(quad: (Double, Double, Double, Double)) = Color(quad._1, quad._2, quad._3, quad._4)
+
+  implicit def colorVectorToColor(colVec: ColorVector) = Color(Color.normalize(colVec.r), Color.normalize(colVec.g),
+    Color.normalize(colVec.b), Color.normalize(colVec.a))
+
+  implicit def colorToColorVector(color: Color) = ColorVector(color.r, color.g, color.b, color.a)
 }

@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <option name="incrementalityType" value="SBT" />
-    <profile name="sbt 1" modules="jvm-vgutils,vgutilsJVM" />
+    <profile name="sbt 1" modules="jvm-vgutils,projekty-vgutils,vgutils,vgutilsJVM" />
     <profile name="sbt 2" modules="vgutilsJS">
       <plugins>
-        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.8/jars/scalajs-compiler_2.12.8-0.6.26.jar" />
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.12.4/0.6.28/scalajs-compiler_2.12.4-0.6.28.jar" />
       </plugins>
     </profile>
-    <profile name="sbt 3" modules="root,vgutils">
+    <profile name="sbt 3" modules="root">
       <plugins>
         <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.12.8/0.6.26/scalajs-compiler_2.12.8-0.6.26.jar" />
       </plugins>

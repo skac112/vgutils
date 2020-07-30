@@ -75,4 +75,14 @@ case class Bounds(tl: Point, br: Point, boundsType: Symbol = 'NORMAL_BOUNDS) {
     (br.x > other.tl.x) &&
     (tl.y < other.br.y) &&
     (br.y > other.tl.y)
+
+  /**
+   * Determines if a given point lies in or on bounds (not outside).
+   */
+  def hitTest(pt: Point) = boundsType match {
+    case 'NORMAL_BOUNDS => pt.x >= tl.x && pt.y >= tl.y && pt.x <= br.x && pt.y <= br.y
+    case 'POINT_BOUNDS => tl == pt
+    case 'INF_BOUNDS => true
+    case 'EMPTY_BOUNDS => false
+  }
 }

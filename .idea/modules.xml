@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jvm-vgutils.iml" filepath="$PROJECT_DIR$/.idea/modules/jvm-vgutils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root.iml" filepath="$PROJECT_DIR$/.idea/modules/root.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vgutils.iml" filepath="$PROJECT_DIR$/.idea/modules/vgutils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vgutils-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/vgutils-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vgutils.iml" filepath="$PROJECT_DIR$/.idea/modules/vgutils.iml" group="vgutils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vgutils-build.iml" filepath="$PROJECT_DIR$/.idea/modules/vgutils-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vgutils-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/vgutils-sources.iml" group="vgutils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vgutilsJS.iml" filepath="$PROJECT_DIR$/.idea/modules/vgutilsJS.iml" group="vgutils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vgutilsJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/vgutilsJVM.iml" group="vgutils" />
     </modules>
   </component>
 </project>

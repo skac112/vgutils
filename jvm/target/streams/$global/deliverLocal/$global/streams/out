@@ -1,4 +1,0 @@
-[0m[[0minfo[0m] [0m:: delivering :: skac#vgutils_2.12;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Wed Apr 10 14:39:46 CEST 2019[0m
-[0m[[0mdebug[0m] [0m	options = status=integration pubdate=Wed Apr 10 14:39:46 CEST 2019 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
-[0m[[0minfo[0m] [0m	delivering ivy file to /media/windows/projekty/vgutils/jvm/target/scala-2.12/ivy-0.1.0-SNAPSHOT.xml[0m
-[0m[[0mdebug[0m] [0m	deliver done (25ms)[0m

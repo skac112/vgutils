@@ -1,32 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2a051d30-7b3f-4d20-9858-0faf32cb06b4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/jvm-vgutils.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/vgutils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_utest_2_12_0_6_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_utest_2_12_0_6_3_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_utest_sjs0_6_2_12_0_6_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_utest_sjs0_6_2_12_0_6_3_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_js_scalajs_library_2_12_0_6_26_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_js_scalajs_library_2_12_0_6_26_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_js_scalajs_test_interface_2_12_0_6_26_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_js_scalajs_test_interface_2_12_0_6_26_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_js_scalajs_library_2_12_0_6_28_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/vgutilsJS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/ColorVector$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/ColorVector$.sjsir" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/ColorVector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/ColorVector.sjsir" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/ColorVector$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/ColorVector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/ColorVector.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/SquareMatrix.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/linear/GenericLinear.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/linear/Linear.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/linear/Rotation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/linear/Scale.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/linear/ShearX.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/linear/ShearY.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/linear/UniScale.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/_global/_global/dumpStructure/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/varia/.ipynb_checkpoints/bars_2020_01_06-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/varia/bars_2020_01_06.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_js_scalajs_library_2_12_0_6_26_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_js_scalajs_test_interface_2_12_0_6_26_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_js_scalajs_test_interface_2_12_0_6_28_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/root-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/root.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/jvm-vgutils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vgutilsJVM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/root-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vgutils-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/root.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/vgutils-sources.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vgutils-sources.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutilsJS-build.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutilsJS.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutilsJVM-build.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutilsJVM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vgutils.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -43,6 +66,7 @@
       <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/MathUtils$.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/MathUtils$.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/Point$.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/Point$.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/Point.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/Point.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/transform/Affine$.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/transform/Affine$.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/transform/Affine.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/transform/Affine.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/transform/GenericLinear.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/transform/GenericLinear.html" afterDir="false" />
@@ -52,12 +76,194 @@
       <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/transform/Transl$.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/transform/Transl$.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/transform/Transl.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/transform/Transl.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/transform/UniScaleTransl.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/transform/UniScaleTransl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/transform/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/com/github/skac112/vgutils/transform/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/ivy-0.1.0-SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/ivy-0.1.0-SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/vgutils_sjs0.6_2.12-0.1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/vgutils_sjs0.6_2.12-0.1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/vgutils_sjs0.6_2.12-0.1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/vgutils_sjs0.6_2.12-0.1.0-SNAPSHOT-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/vgutils_sjs0.6_2.12-0.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/vgutils_sjs0.6_2.12-0.1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/vgutils_sjs0.6_2.12-0.1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/vgutils_sjs0.6_2.12-0.1.0-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/open-sans-v13-latin-400i.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/open-sans-v13-latin-400i.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/open-sans-v13-latin-400i.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/open-sans-v13-latin-700.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/open-sans-v13-latin-700.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/open-sans-v13-latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/open-sans-v13-latin-700i.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/open-sans-v13-latin-700i.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/open-sans-v13-latin-700i.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/api/lib/template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Angle$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Angle$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Angle.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Angle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Bounds$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Bounds$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Bounds.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Bounds.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Color$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Color$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Color.sjsir" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Color.sjsir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Line$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Line$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/LineSec$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/LineSec$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/LineSec.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/LineSec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$.sjsir" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$.sjsir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$EllipseCalc$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$EllipseCalc$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$EllipseCalc$.sjsir" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$EllipseCalc$.sjsir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Point$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Point$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/package$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/package$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/package$.sjsir" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/package$.sjsir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/package.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/package.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Affine$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Affine$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Affine.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Affine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/GenericLinear.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/GenericLinear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Linear$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Linear$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Linear.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Linear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Rotation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Rotation$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Rotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Rotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Scale$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Scale$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Scale.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Scale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Transl$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Transl$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Transl.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Transl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/UniScaleTransl$.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/UniScaleTransl$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/UniScaleTransl.class" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/com/github/skac112/vgutils/transform/UniScaleTransl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/ivy-0.1.0-SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/ivy-report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-ensime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-phantom-js-jetty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-ensime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-phantom-js-jetty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/skac/vgutils$sources_sjs0.6_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/skac/vgutils$sources_sjs0.6_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/skac/vgutils_sjs0.6_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/skac/vgutils_sjs0.6_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/skac112/vgutils_sjs0.6_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/skac112/vgutils_sjs0.6_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/scala-2.12/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/vgutils_sjs0.6_2.12-0.1.0-SNAPSHOT-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/vgutils_sjs0.6_2.12-0.1.0-SNAPSHOT-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/vgutils_sjs0.6_2.12-0.1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/vgutils_sjs0.6_2.12-0.1.0-SNAPSHOT.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/$global/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/$global/$global/streams/package-js-deps/in-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/$global/$global/streams/package-js-deps/out-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/deliverLocal/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/makePom/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/publishLocal/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/ssExtractDependencies/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/update/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/updateSbtClassifiers/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/_global/_global/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/_global/_global/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/_global/_global/_global/streams/package-js-deps/in-cache" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/_global/_global/_global/streams/package-js-deps/in-cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/_global/makePom/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/_global/makePom/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/_global/publishLocal/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/_global/publishLocal/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/$global/$global/sjsirFilesOnClasspath/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/_global/_global/sjsirFilesOnClasspath/data" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/_global/_global/sjsirFilesOnClasspath/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/compile/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/compileIncremental/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/doc/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/doc/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/doc/$global/streams/scala/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/doc/$global/streams/scala/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/doc/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/doc/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/doc/_global/streams/scala/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/doc/_global/streams/scala/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/doc/_global/streams/scala/output" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/doc/_global/streams/scala/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/fastOptJS/$global/streams/in-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/fastOptJS/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/fastOptJS/$global/streams/out-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/fastOptJS/_global/streams/in-cache" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/fastOptJS/_global/streams/in-cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/fastOptJS/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/fastOptJS/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/fullClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/mainClass/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageBin/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageBin/$global/streams/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageBin/_global/streams/output" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/packageBin/_global/streams/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageDoc/$global/streams/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageDoc/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageDoc/$global/streams/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageDoc/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/packageDoc/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageDoc/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/packageDoc/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageDoc/_global/streams/output" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/packageDoc/_global/streams/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageSrc/$global/streams/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageSrc/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageSrc/$global/streams/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageSrc/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/packageSrc/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageSrc/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/packageSrc/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/packageSrc/_global/streams/output" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/compile/packageSrc/_global/streams/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/js/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/test/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/test/unmanagedJars/$global/streams/export" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/Angle$.html" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/Angle$.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/Angle.html" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/Angle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/Bounds$.html" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/Bounds$.html" afterDir="false" />
@@ -70,6 +276,7 @@
       <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/MathUtils$.html" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/MathUtils$.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/Point$.html" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/Point$.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/Point.html" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/Point.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/transform/Affine$.html" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/transform/Affine$.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/transform/Affine.html" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/transform/Affine.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/transform/GenericLinear.html" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/transform/GenericLinear.html" afterDir="false" />
@@ -79,327 +286,293 @@
       <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/transform/Transl$.html" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/transform/Transl$.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/transform/Transl.html" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/transform/Transl.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/transform/UniScaleTransl.html" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/transform/UniScaleTransl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/transform/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/com/github/skac112/vgutils/transform/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/ivy-0.1.0-SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/ivy-0.1.0-SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/open-sans-v13-latin-400i.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/open-sans-v13-latin-400i.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/open-sans-v13-latin-400i.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/open-sans-v13-latin-700.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/open-sans-v13-latin-700.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/open-sans-v13-latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/open-sans-v13-latin-700i.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/open-sans-v13-latin-700i.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/open-sans-v13-latin-700i.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/api/lib/template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Angle$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Angle$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Angle.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Angle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Bounds$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Bounds$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Bounds.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Bounds.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Color$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Color$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Line$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Line$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/LineSec$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/LineSec$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/LineSec.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/LineSec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$EllipseCalc$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$EllipseCalc$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Point$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Point$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/package$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/package$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/package.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/package.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Affine$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Affine$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Affine.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Affine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/GenericLinear.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/GenericLinear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Linear$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Linear$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Linear.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Linear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Rotation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Rotation$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Rotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Rotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Scale$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Scale$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Scale.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Scale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Transl$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Transl$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Transl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Transl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/UniScaleTransl$.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/UniScaleTransl$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/UniScaleTransl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/classes/com/github/skac112/vgutils/transform/UniScaleTransl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/ivy-0.1.0-SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/org.scala-sbt.temp/temp-module-750703454be73072ce64f1c215ff85550284ae5b/0.13.16/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/org.scala-sbt.temp/temp-module-750703454be73072ce64f1c215ff85550284ae5b/0.13.16/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/ivy-report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/org.scala-sbt.temp-temp-module-750703454be73072ce64f1c215ff85550284ae5b-component.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-ensime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-ensime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/skac/vgutils$sources_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/skac/vgutils$sources_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/skac/vgutils_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/skac/vgutils_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/skac112/vgutils_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/skac112/vgutils_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/$global/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/deliverLocal/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/makePom/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/publishLocal/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/update/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/updateSbtClassifiers/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/_global/_global/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/_global/_global/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/_global/makePom/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/_global/makePom/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/_global/publishLocal/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/_global/publishLocal/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/compile/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/compileIncremental/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/doc/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/doc/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/doc/$global/streams/scala/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/doc/$global/streams/scala/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/doc/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/doc/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/doc/_global/streams/scala/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/doc/_global/streams/scala/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/doc/_global/streams/scala/output" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/doc/_global/streams/scala/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/mainClass/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/$global/streams/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/_global/streams/output" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/_global/streams/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageDoc/$global/streams/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageDoc/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageDoc/$global/streams/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageDoc/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/packageDoc/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageDoc/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/packageDoc/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageDoc/_global/streams/output" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/packageDoc/_global/streams/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageSrc/$global/streams/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageSrc/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageSrc/$global/streams/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageSrc/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/packageSrc/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageSrc/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/packageSrc/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageSrc/_global/streams/output" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/packageSrc/_global/streams/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/test/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/test/unmanagedJars/$global/streams/export" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ae95477125a8acc37e99$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ae95477125a8acc37e99.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ae95477125a8acc37e99.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$28b182fce511470dfa40$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$28b182fce511470dfa40$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$28b182fce511470dfa40.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$28b182fce511470dfa40.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c78bba348df75c6e508$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c78bba348df75c6e508.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c78bba348df75c6e508.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$$anonfun$root$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$$anonfun$root$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$$anonfun$root$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$$anonfun$root$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$$anonfun$root$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$$anonfun$root$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$$anonfun$root$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$$anonfun$vgutils$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$$anonfun$vgutils$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$$anonfun$vgutils$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$$anonfun$vgutils$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$$anonfun$vgutils$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$$anonfun$vgutils$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$$anonfun$vgutils$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dfc0d62616708eebe2f5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/Angle$.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/Angle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/Bounds$.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/Bounds.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/Color$.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/Color.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/Line.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/LineSec.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/MathUtils$$EllipseCalc$.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/MathUtils$.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/Point$.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/Point.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/transform/Affine$.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/transform/Affine.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/transform/GenericLinear.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/transform/Linear.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/transform/Rotation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/transform/Scale.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/transform/Transl$.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/transform/Transl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/github/skac112/vgutils/transform/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/MaterialIcons-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/MaterialIcons-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/MaterialIcons-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/abstract_type.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/class.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/class_comp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/class_diagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/diagrams.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/diagrams.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/jquery.mousewheel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/jquery.panzoom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/lato-v11-latin-100.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/lato-v11-latin-100.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/lato-v11-latin-100.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/lato-v11-latin-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/lato-v11-latin-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/lato-v11-latin-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/modernizr.custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/object.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/object_comp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/object_comp_trait.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/object_diagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/open-sans-v13-latin-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/open-sans-v13-latin-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/open-sans-v13-latin-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/ownderbg2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/ownerbg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/ownerbg2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/package.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/ref-index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/scheduler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/source-code-pro-v6-latin-700.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/source-code-pro-v6-latin-700.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/source-code-pro-v6-latin-700.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/source-code-pro-v6-latin-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/source-code-pro-v6-latin-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/source-code-pro-v6-latin-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/template.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/tools.tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/trait.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/trait_comp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/trait_diagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/lib/type_diagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/JS_DEPENDENCIES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Angle$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Angle.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Bounds$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Bounds.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Color$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Color.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Line$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Line.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/LineSec$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/LineSec.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/MathUtils$EllipseCalc$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Point$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/Point.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/package$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Affine$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Affine.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/GenericLinear.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Linear$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Linear.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Rotation$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Rotation.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Scale$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Scale.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Transl$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/github/skac112/vgutils/transform/Transl.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/ivy-0.0.1-SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/ivy-1.0.0-SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/ivy-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-compile-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-compile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-docs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-ensime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-optional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-phantom-js-jetty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-provided.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-runtime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-runtime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-scala-tool.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-sources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-test-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root$sources_sjs0.6_2.12-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-compile-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-compile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-docs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-ensime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-optional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-phantom-js-jetty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-provided.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-runtime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-runtime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-scala-tool.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-sources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-test-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/root-root_sjs0.6_2.12-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-compile-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-compile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-docs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-ensime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-optional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-provided.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-runtime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-runtime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-scala-tool.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-sources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-test-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_2.12-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-compile-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-compile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-docs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-ensime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-optional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-phantom-js-jetty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-provided.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-runtime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-runtime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-scala-tool.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-sources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-test-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils$sources_sjs0.6_2.12-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-compile-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-compile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-docs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-ensime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-optional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-provided.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-runtime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-runtime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-scala-tool.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-sources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-test-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_2.12-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-compile-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-compile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-docs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-ensime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-optional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-phantom-js-jetty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-provided.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-runtime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-runtime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-scala-tool.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-sources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-test-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/skac-vgutils_sjs0.6_2.12-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/root/root$sources_sjs0.6_2.12/0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/root/root$sources_sjs0.6_2.12/0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/root/root_sjs0.6_2.12/0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/root/root_sjs0.6_2.12/0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/skac/vgutils$sources_2.12/0.0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/skac/vgutils$sources_2.12/0.0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/skac/vgutils$sources_sjs0.6_2.12/0.0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/skac/vgutils$sources_sjs0.6_2.12/0.0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/skac/vgutils_2.12/0.0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/skac/vgutils_2.12/0.0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/skac/vgutils_sjs0.6_2.12/0.0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/skac/vgutils_sjs0.6_2.12/0.0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/skac/vgutils_sjs0.6_2.12/1.0.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/skac/vgutils_sjs0.6_2.12/1.0.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/root-fastopt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/root-fastopt.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/root-jsdeps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/root_sjs0.6_2.12-0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_2.12-0.0.1-SNAPSHOT-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_2.12-0.0.1-SNAPSHOT-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_2.12-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_2.12-0.0.1-SNAPSHOT.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_sjs0.6_2.12-0.0.1-SNAPSHOT-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_sjs0.6_2.12-0.0.1-SNAPSHOT-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_sjs0.6_2.12-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_sjs0.6_2.12-0.0.1-SNAPSHOT.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_sjs0.6_2.12-1.0.0-SNAPSHOT-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_sjs0.6_2.12-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_sjs0.6_2.12-1.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_sjs0.6_2.12-1.0.0-SNAPSHOT.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/package-js-deps/in-cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/package-js-deps/out-cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructureTo/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/clean/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/deliverLocal/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/makePom/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/publishLocal/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/sjsirFilesOnClasspath/data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/fastOptJS/$global/streams/in-cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/fastOptJS/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/fastOptJS/$global/streams/out-cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/fullClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/mainClass/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$37401a9e5c4c92ad1582$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$37401a9e5c4c92ad1582.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$37401a9e5c4c92ad1582.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$b6f95c8c4e531baf3aba$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$b6f95c8c4e531baf3aba.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$b6f95c8c4e531baf3aba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/vgutilsJS-compile/compilation-info-9fd5066d-848e-4250-80b5-6bbccce01065" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/vgutilsJVM-compile/compilation-info-44f6c36c-08b5-447f-bbe2-43255afb2cfd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$042ef7ecd2d66c73fa93$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$042ef7ecd2d66c73fa93.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$042ef7ecd2d66c73fa93.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Bounds.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Bounds.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Color.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Color.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/LineSec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/LineSec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/MathUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/MathUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/package.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/ivy-0.1.0-SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/ivy-0.1.0-SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/vgutils_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/vgutils_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/vgutils_2.12-0.1.0-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/publishLocal/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/publishLocal/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageDoc/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageSrc/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/varia/jupyter_notebooks/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/varia/jupyter_notebooks/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/varia/jupyter_notebooks/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/varia/jupyter_notebooks/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/scala-2.12/update/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/scala-2.12/update/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/_global/_global/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/_global/scalaCompilerBridgeScope/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/_global/update/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/_global/_global/managedSourcePaths/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/compile/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/js/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/scala-2.12/update/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/scala-2.12/update/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/_global/_global/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/_global/scalaCompilerBridgeScope/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/_global/update/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/_global/_global/managedSourcePaths/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/compile/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/unmanagedJars/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgutils/jvm/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -413,11 +586,12 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>c3p</find>
-      <find>forpts</find>
-    </findStrings>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -427,26 +601,21 @@
   </component>
   <component name="ProjectId" id="1Qh87RqI67SRwhWn54Yy6j4JUrI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.skac112.vgutils.transform.linear" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/shared" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet">
@@ -461,22 +630,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="vgutils-build" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -500,64 +677,7 @@
       </method>
     </configuration>
   </component>
-  <component name="SbtLocalSettings">
-    <option name="availableProjects">
-      <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="root" />
-              <option name="path" value="$PROJECT_DIR$" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="root [file:/home/slawek/Dokumenty/projekty/vgutils/]" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="vgutilsJS [file:/home/slawek/Dokumenty/projekty/vgutils/]" />
-                <option name="path" value="$PROJECT_DIR$/js" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="vgutilsJVM [file:/home/slawek/Dokumenty/projekty/vgutils/]" />
-                <option name="path" value="$PROJECT_DIR$/jvm" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="vgutils-sources" />
-                <option name="path" value="$PROJECT_DIR$/shared" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="root-build" />
-                <option name="path" value="$PROJECT_DIR$/project" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$" value="4662943878386" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="2359054275" />
-        <entry key="$PROJECT_DIR$/project/build.properties" value="1156910148" />
-        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="3346703975" />
-      </map>
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../anydoc" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../fractalizer" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../funnodes" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../graphs/current/eulerdraw" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../obce/compose" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../obce/jupyter-scala-master-vigor" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../srvcomb" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../viget" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -576,13 +696,22 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="416" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1595762744181">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="416" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1595762744181" />
+    <state x="307" y="237" width="741" height="318" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595849579254">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="307" y="237" width="741" height="318" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.741@0.27.1366.741" timestamp="1595849579254" />
   </component>
   <component name="masterDetails">
     <states>

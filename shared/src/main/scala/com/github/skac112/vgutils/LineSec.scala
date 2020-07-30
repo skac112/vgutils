@@ -33,7 +33,7 @@ case class LineSec(p1: Point, p2: Point) {
         // point of intersection of lines corresponding to line sections.
         // It counts only if it lies on both line sections.
         val p_i = MathUtils.linearSys2(l1.a, l1.b, l1.c, l2.a, l2.b, l2.c)
-        // checking if point of intersection lies on both line sections. To
+        // checking if point of intersection lies on both line sections. It iTo
         // avoid rounding errors one could use collinearity of intersection
         // points with both sections and check only distances
         if ((p_i - p1).modulus2 <= len2 && (p_i - p2).modulus2 <= len2 &&
