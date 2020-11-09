@@ -363,4 +363,106 @@ object MathUtils {
       Set()
     }
   }
+
+  /**
+   * Finds circles tangent to straight line in given point and tangent to given circle.
+   * @param Point pTan point on a straight line where searched circle is tangent to it
+   * @param Double a Parameter a in straight line equation ax + by + c = 0
+   * @param Double b Parameter b in straight line equation ax + by + c = 0
+   * @param Double c Parameter c in straight line equation ax + by + c = 0
+   * @param Point pCenCir center point of given circle
+   * @param Double rCir radius of given circle
+   */
+  def cTanLinePtCirc(pTan: Point, a: Double, b: Double, c: Double, pCenCir: Point, rCir: Double): Set[(Point, Double)] = {
+    val n = ((pCenCir - pTan).modulus2 - rCir*rCir)*.5
+    val det1 = a*(pCenCir.x - pTan.x) + b*(pCenCir.y - pTan.y)
+    val s = sqrt(a*a + b*b)
+    val det2 = rCir*s
+    val k1 = n / (det1 + det2)
+    val k2 = n / (det1 - det2)
+    if (k1 != k2) {
+      // 2 solutions
+      Set(k1, k2) map (k => (pTan + Point(k * a, k * b), sqrt(k * k) * s))
+    } else {
+      // 1 solution
+      Set((pTan + Point(k1 * a, k1 * b), sqrt(k1 * k1) * s))
+    }
+  }
+
+  /**
+   * Finds circles with given radius tangent to straight line and circle.
+   * @param Double a Parameter a in straight line equation ax + by + c = 0
+   * @param Double b Parameter b in straight line equation ax + by + c = 0
+   * @param Double c Parameter c in straight line equation ax + by + c = 0
+   * @param Point p1 center of the given circle
+   * @param Double r1 radius of the given circle
+   * @param Double r radius of search circle
+   */
+  def cTanLineCirc(a: Double, b: Double, c: Double, p1: Point, r1: Double, r: Double): Set[Point] = {
+    // Search circles' centers lie on the intersection of a straight lines parallel to given straight line
+    // separated by distance of given radius r and of circles of radii: r1 + r and (if r < r1) r1 - r
+    val c_offset = r*sqrt(a*a + b*b)
+    // c parameters of lines parallel to given with distance equal to r
+    val cs = Set(c + c_offset, c - c_offset)
+
+    val radii = if (r < r1) {
+      Set(r1 + r, r1 - r)
+    }
+    else {
+      Set(r1 + r)
+    }
+
+    val res1 = for (c <- cs; r <- radii)
+      yield isecLineCirc(a, b, c, p1, r)
+
+    res1.flatten
+  }
+
+  /**
+   * Finds points of intersection of straight line and circle
+   */
+  def isecLineCirc(a: Double, b: Double, c: Double, p: Point, r: Double): Set[Point] = a match {
+    case 0.0 => {
+      // a == 0.0
+      // number of solutions (0, 1, 2) is determined by expression under a square root (calculated only when
+      // non-negative)
+      val under_sr = (b*r - b*p.y - c) * (b*r + b*p.y + c)
+      under_sr match {
+        // 1 solution
+        case 0.0 => Set(Point(p.x, -c / b))
+        // 2 solutions
+        case _ if under_sr > 0 => {
+          val y = -c / b
+          val frac1 = sqrt(under_sr) / b
+          Set(Point(p.x - frac1, y), Point(p.x + frac1, y))
+        }
+        // under_sr < 0 => no solutions
+        case _ => Set()
+      }
+    }
+    case _ => {
+      // a != 0
+      val a2 = a*a
+      val b2 = b*b
+      val r2 = r*r
+      val under_sr = a2*(r2 - p.x*p.x) - 2*a*b*p.x*p.y - 2*a*c*p.x + b2*(r2 - p.y*p.y) - 2*b*c*p.y - c*c
+      val a2b2 = a2 + b2
+      val expr1 = (a2*p.y - a*b*p.x - b*c) / a2b2
+      // number of solutions (0, 1, 2) is determined by expression under a square root (different than above, calculated
+      // only when non-negative)
+      under_sr match {
+        // 1 solution
+        case 0.0 => Set(Point((-b*expr1 - c)/a, expr1))
+        case _ if under_sr > 0 => {
+          val frac1 = a*sqrt(under_sr) / a2b2
+          val x1 = (b*(frac1 - expr1) - c) / a
+          val y1 = -frac1 + expr1
+          val x2 = (b*(-frac1 - expr1) - c) / a
+          val y2 = frac1 + expr1
+          Set(Point(x1, y1), Point(x2, y2))
+        }
+        case _ => Set()
+      }
+    }
+  }
 }

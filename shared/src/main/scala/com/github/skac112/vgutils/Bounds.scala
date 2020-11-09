@@ -71,10 +71,22 @@ case class Bounds(tl: Point, br: Point, boundsType: Symbol = 'NORMAL_BOUNDS) {
     * @param other
     */
   def intersectsWith(other: Bounds) =
-    (tl.x < other.br.x) &&
-    (br.x > other.tl.x) &&
-    (tl.y < other.br.y) &&
-    (br.y > other.tl.y)
+    tl.x < other.br.x &&
+    br.x > other.tl.x &&
+    tl.y < other.br.y &&
+    br.y > other.tl.y
+
+  def isOutsideOf(other: Bounds) =
+    tl.x > other.br.x ||
+      br.x < other.tl.x ||
+      tl.y > other.br.y ||
+      br.y < other.tl.y
+
+  def isInside(other: Bounds) =
+    tl.x > other.tl.x &&
+      br.x < other.br.x &&
+      tl.y > other.tl.y &&
+      br.y < other.br.y
 
   /**
    * Determines if a given point lies in or on bounds (not outside).

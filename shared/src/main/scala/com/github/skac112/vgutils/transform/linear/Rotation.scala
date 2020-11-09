@@ -7,7 +7,7 @@ import scala.math._
 /**
  * @author slawek
  */
-case class Rotation(angle: Double, pivot: Point = ori) extends GenericLinear(
+case class Rotation(angle: Double) extends GenericLinear(
   a = cos(angle),
   b = -sin(angle),
   c = sin(angle),

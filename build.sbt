@@ -3,7 +3,7 @@ import sbtcrossproject.CrossPlugin.autoImport.{crossProject, CrossType}
 
 val sharedSettings = Seq(
   name := "vgutils",
-  version := "0.1.3-SNAPSHOT",
+  version := "0.1.4-SNAPSHOT",
   organization := "skac112",
   scalaVersion := "2.12.4",
   libraryDependencies += "com.lihaoyi" %%% "utest" % "0.6.3" % "test"
