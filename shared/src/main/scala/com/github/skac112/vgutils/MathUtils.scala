@@ -1,6 +1,8 @@
 package com.github.skac112.vgutils
 
 import transform.Rotation
+
+import scala.collection.TraversableOnce.MonadOps
 import scala.math._
 
 /**
@@ -329,6 +331,11 @@ object MathUtils {
   }
 
   /**
+   * Finds centers of circles with given radius passing through two given points.
+   */
+  def c2pr(p1: Point, p2: Point, radius: Double): Set[Point] = c2i(p1, radius, p2, radius)
+
+  /**
    * Finds a straight line passing through two points.
    */
   def line2p(p1: Point, p2: Point): (Double, Double, Double) = {
@@ -391,12 +398,12 @@ object MathUtils {
 
   /**
    * Finds circles with given radius tangent to straight line and circle.
-   * @param Double a Parameter a in straight line equation ax + by + c = 0
-   * @param Double b Parameter b in straight line equation ax + by + c = 0
-   * @param Double c Parameter c in straight line equation ax + by + c = 0
-   * @param Point p1 center of the given circle
-   * @param Double r1 radius of the given circle
-   * @param Double r radius of search circle
+   * @param a Parameter a in straight line equation ax + by + c = 0
+   * @param b Parameter b in straight line equation ax + by + c = 0
+   * @param c Parameter c in straight line equation ax + by + c = 0
+   * @param p1 center of the given circle
+   * @param r1 radius of the given circle
+   * @param r radius of search circle
    */
   def cTanLineCirc(a: Double, b: Double, c: Double, p1: Point, r1: Double, r: Double): Set[Point] = {
     // Search circles' centers lie on the intersection of a straight lines parallel to given straight line

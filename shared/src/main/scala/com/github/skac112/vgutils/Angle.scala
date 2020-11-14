@@ -45,7 +45,7 @@ case class Angle(initX: Double, initY: Double, initValue: Double) {
     case (x, _) => x / modulus
   }
 
-  lazy val y = (initX, initY) match {
+    lazy val y = (initX, initY) match {
     case (0, 0) => sin(value)
     case (_, y) => y / modulus
   }
@@ -87,10 +87,17 @@ case class Angle(initX: Double, initY: Double, initValue: Double) {
    */
   def between(start: Angle, end: Angle): Boolean = {
     val sn = start.value
-    val en = start.value
+    val en = end.value
     (sn <= en && value >= sn && value <= en) || (sn >= en && (value >= sn || value <= en))
   }
 
   def map(mapF: (Double) => Double) = Angle(0, 0, mapF(value))
   def flatMap(fmapF: (Double) => Angle): Angle = fmapF(value)
+
+  lazy val isAcute = value < .5*Pi
+  lazy val isRight = value == .5*Pi
+  lazy val isObtuse = value > .5*Pi && value < Pi
+  lazy val isStraight = value == Pi
+  lazy val isReflex = value > 1.5*Pi
+  lazy val isFull = value == 2*Pi
 }
