@@ -98,6 +98,6 @@ case class Angle(initX: Double, initY: Double, initValue: Double) {
   lazy val isRight = value == .5*Pi
   lazy val isObtuse = value > .5*Pi && value < Pi
   lazy val isStraight = value == Pi
-  lazy val isReflex = value > 1.5*Pi
+  lazy val isReflex = value > Pi
   lazy val isFull = value == 2*Pi
 }
