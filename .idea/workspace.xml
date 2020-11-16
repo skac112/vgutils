@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a051d30-7b3f-4d20-9858-0faf32cb06b4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Angle.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Angle.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Line.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Line.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
