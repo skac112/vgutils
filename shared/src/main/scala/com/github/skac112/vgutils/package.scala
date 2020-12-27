@@ -25,4 +25,6 @@ package object vgutils {
     Color.normalize(colVec.b), Color.normalize(colVec.a))
 
   implicit def colorToColorVector(color: Color) = ColorVector(color.r, color.g, color.b, color.a)
+  implicit def doubleToRichDouble(value: Double) = RichDouble(value)
+  implicit def richDoubleToDoible(rd: RichDouble) = rd.value
 }

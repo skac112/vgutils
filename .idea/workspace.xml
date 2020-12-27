@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a051d30-7b3f-4d20-9858-0faf32cb06b4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/RichDouble.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutils-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vgutils-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vgutils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutilsJS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vgutilsJS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutilsJVM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vgutilsJVM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Line.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Line.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/package.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +52,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sgl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../klee" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -55,12 +73,6 @@
   <component name="RunManager">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,6 +97,12 @@
       <setting name="customPortFile" value="" />
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -138,19 +156,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="416" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1595762744181">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="416" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1595762744181" />
-    <state x="307" y="237" width="741" height="318" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595849579254">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="307" y="237" width="741" height="318" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.741@0.27.1366.741" timestamp="1595849579254" />
-    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1599059451073">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1599059451073" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="masterDetails">
     <states>
