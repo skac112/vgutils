@@ -44,11 +44,11 @@ case class Point(x: Double, y: Double) {
   def **(Other: Point) = x * Other.y - y * Other.x
   def /(Factor: Double) = Point(x / Factor, y / Factor)
   def closeTo(other: Point) = (this - other).modulus2 < smallDist
-  def rot(Deg: Double) = (Rotation(Deg)) transPt this
+  def rot(Deg: Double) = (PivotRot(Deg)) transPt this
   def r(deg: Double) = rot(deg)
 //  def rot(Deg: Double) = Point(x * cos(Deg) - y * sin(Deg), x * sin(Deg) + y * cos(Deg))
   def rot(Deg: Double, Pivot: Point): Point = Pivot + ((this - Pivot) rot Deg)
-  def rot(Rot: Rotation): Point = rot(Rot.angle, Rot.pivot)
+  def rot(Rot: PivotRot): Point = rot(Rot.angle, Rot.pivot)
 
   /**
    * Kat skierowany ze znakiem pomiedzy wektorem opisywanym przez ten punkt i

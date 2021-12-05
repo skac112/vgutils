@@ -1,6 +1,6 @@
 package com.github.skac112.vgutils
 
-import transform.Rotation
+import transform.PivotRot
 
 import scala.collection.TraversableOnce.MonadOps
 import scala.math._

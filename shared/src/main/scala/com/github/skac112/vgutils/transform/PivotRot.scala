@@ -6,7 +6,7 @@ import scala.math._
 /**
  * @author slawek
  */
-case class Rotation(angle: Double, pivot: Point = ori) extends Affine(a = cos(angle),
+case class PivotRot(angle: Double, pivot: Point = ori) extends Affine(a = cos(angle),
   b = -sin(angle),
   c = sin(angle),
   d = cos(angle),

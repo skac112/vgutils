@@ -1,6 +1,7 @@
 package com.github.skac112.vgutils.transform
 
 import com.github.skac112.vgutils._
+import com.github.skac112.vgutils.transform.linear.Linear
 
 object Affine {
   /**
@@ -42,7 +43,7 @@ class Affine(val a: Double, val b: Double, val c: Double, val d: Double, val e: 
    */
   lazy val inv: Affine = {
     val lin_inv = lin.inv
-    lin_inv - (lin_inv transPt translPt)
+    lin_inv - (lin_inv.apply(translPt))
   }
 }
 

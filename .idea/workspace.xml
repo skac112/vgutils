@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a051d30-7b3f-4d20-9858-0faf32cb06b4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_utest_2_12_0_6_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_utest_2_12_0_6_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_utest_sjs0_6_2_12_0_6_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_utest_sjs0_6_2_12_0_6_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutils-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vgutils-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutils-sources.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vgutils-sources.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Line.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Line.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/MathUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/MathUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Point.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Point.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/package.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Affine.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Affine.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/GenericLinear.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Linear.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Rotation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/PivotRot.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Scale.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/linear/GenericLinear.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/linear/GenericLinear.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +51,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -41,8 +64,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sgl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -65,7 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
       <setting name="jvmArgs" value="" />
@@ -74,9 +111,11 @@
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
       <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
       <setting name="host" value="" />
       <setting name="port" value="0" />
       <setting name="replType" value="SOCKET" />
@@ -84,6 +123,7 @@
       <setting name="replPortFileType" value="STANDARD" />
       <setting name="customPortFile" value="" />
       <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -136,21 +176,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="416" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1595762744181">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="416" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1595762744181" />
-    <state x="307" y="237" width="741" height="318" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595849579254">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="307" y="237" width="741" height="318" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.741@0.27.1366.741" timestamp="1595849579254" />
-    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1599059451073">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1599059451073" />
   </component>
   <component name="masterDetails">
     <states>
