@@ -11,4 +11,5 @@
 .ensime_cache
 .idea
 bin/
+.idea/
 

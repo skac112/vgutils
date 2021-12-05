@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a051d30-7b3f-4d20-9858-0faf32cb06b4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_utest_2_12_0_6_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_utest_2_12_0_6_3_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_utest_sjs0_6_2_12_0_6_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_utest_sjs0_6_2_12_0_6_3_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_4_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutils-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vgutils-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/vgutils-sources.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vgutils-sources.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/MathUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/MathUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Point.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/Point.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/package.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Affine.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Affine.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/GenericLinear.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Linear.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Rotation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/PivotRot.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/Scale.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/linear/GenericLinear.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/github/skac112/vgutils/transform/linear/GenericLinear.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
