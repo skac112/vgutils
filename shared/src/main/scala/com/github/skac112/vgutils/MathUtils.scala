@@ -373,12 +373,12 @@ object MathUtils {
 
   /**
    * Finds circles tangent to straight line in given point and tangent to given circle.
-   * @param Point pTan point on a straight line where searched circle is tangent to it
-   * @param Double a Parameter a in straight line equation ax + by + c = 0
-   * @param Double b Parameter b in straight line equation ax + by + c = 0
-   * @param Double c Parameter c in straight line equation ax + by + c = 0
-   * @param Point pCenCir center point of given circle
-   * @param Double rCir radius of given circle
+   * @param pTan Point point on a straight line where searched circle is tangent to it
+   * @param a Double Parameter a in straight line equation ax + by + c = 0
+   * @param b Double Parameter b in straight line equation ax + by + c = 0
+   * @param c Double Parameter c in straight line equation ax + by + c = 0
+   * @param pCenCir Point center point of given circle
+   * @param rCir Double radius of given circle
    */
   def cTanLinePtCirc(pTan: Point, a: Double, b: Double, c: Double, pCenCir: Point, rCir: Double): Set[(Point, Double)] = {
     val n = ((pCenCir - pTan).modulus2 - rCir*rCir)*.5

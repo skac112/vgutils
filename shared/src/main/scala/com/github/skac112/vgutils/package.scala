@@ -9,6 +9,7 @@ import vgutils.transform._
 package object vgutils {
   type Points = Seq[Point]
   type PtSet = Set[Point]
+  type PtTrans = (Point) => Point
   implicit def Tuple2Point(Tuple: Tuple2[Double, Double]) = Point(Tuple._1, Tuple._2)
   implicit def double2Point(value: Double) = Point(value, .0)
   // implicit def angle2Double(angle: Angle) = angle.normVal

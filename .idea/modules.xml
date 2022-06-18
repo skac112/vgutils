@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project.vgutils-build.iml" filepath="$PROJECT_DIR$/.idea/modules/project.vgutils-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/vgutils.iml" filepath="$PROJECT_DIR$/.idea/modules/vgutils.iml" group="vgutils" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/vgutils-build.iml" filepath="$PROJECT_DIR$/.idea/modules/vgutils-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/vgutils-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/vgutils-sources.iml" group="vgutils" />

@@ -4,6 +4,7 @@ import com.github.skac112.vgutils._
 import scala.math._
 
 /**
+ * Rotation around given point.
  * @author slawek
  */
 case class PivotRot(angle: Double, pivot: Point = ori) extends Affine(a = cos(angle),
