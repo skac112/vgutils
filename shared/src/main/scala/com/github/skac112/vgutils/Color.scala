@@ -125,4 +125,5 @@ case class Color(r: Double, g: Double, b: Double, a: Double = 1.0) {
   def setS(new_s: Double) = hsla(h, new_s, l, a)
   def setL(new_l: Double) = hsla(h, s, new_l, a)
   def setA(new_a: Double) = Color(r, g, b, new_a)
+  def *(factor: Double) = Color(factor*r, factor*g, factor*b, a)
 }
