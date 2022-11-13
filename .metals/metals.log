@@ -1,0 +1,2042 @@
+2022.11.06 14:58:54 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/lsp.trace.json or /home/skac/.cache/metals/lsp.trace.json
+2022.11.06 14:58:54 INFO  logging to file /home/skac/Documents/projekty/vgutils/.metals/metals.log
+2022.11.06 14:58:54 INFO  Started: Metals version 0.11.9 in workspace '/home/skac/Documents/projekty/vgutils' for client Visual Studio Code 1.73.0.
+2022.11.06 14:58:56 INFO  time: initialize in 1.36s
+2022.11.06 14:58:57 WARN  Build server is not auto-connectable.
+2022.11.06 14:59:04 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals11853865392037427304/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.11.06 14:59:04 WARN  no build target for: /home/skac/Documents/projekty/vgutils/project/metals.sbt
+2022.11.06 14:59:04 WARN  no build target for: /home/skac/Documents/projekty/vgutils/project/project/metals.sbt
+2022.11.06 14:59:04 INFO  skipping build import with status 'Started'
+2022.11.06 14:59:07 INFO  [info] welcome to sbt 1.5.2 (Ubuntu Java 11.0.16)
+2022.11.06 14:59:08 INFO  no build target found for /home/skac/Documents/projekty/vgutils/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.06 14:59:09 INFO  [info] loading global plugins from /home/skac/.sbt/1.0/plugins
+2022.11.06 14:59:12 INFO  [info] loading settings for project vgutils-build-build-build from metals.sbt ...
+2022.11.06 14:59:12 INFO  [info] loading project definition from /home/skac/Documents/projekty/vgutils/project/project/project
+2022.11.06 14:59:14 INFO  [info] loading settings for project vgutils-build-build from metals.sbt ...
+2022.11.06 14:59:14 INFO  [info] loading project definition from /home/skac/Documents/projekty/vgutils/project/project
+2022.11.06 14:59:16 INFO  [success] Generated .bloop/vgutils-build-build.json
+2022.11.06 14:59:16 INFO  [success] Total time: 2 s, completed Nov 6, 2022, 2:59:16 PM
+2022.11.06 14:59:16 INFO  [info] loading settings for project vgutils-build from metals.sbt,plugins.sbt ...
+2022.11.06 14:59:16 INFO  [info] loading project definition from /home/skac/Documents/projekty/vgutils/project
+2022.11.06 14:59:18 INFO  [success] Generated .bloop/vgutils-build.json
+2022.11.06 14:59:18 INFO  [success] Total time: 2 s, completed Nov 6, 2022, 2:59:18 PM
+2022.11.06 14:59:19 INFO  [info] loading settings for project vgutils from build.sbt ...
+2022.11.06 14:59:19 INFO  [info] set current project to vgutils (in build file:/home/skac/Documents/projekty/vgutils/)
+2022.11.06 14:59:19 INFO  [warn] scala-library-2.13.4.jar no longer exists at /home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar
+2022.11.06 14:59:19 INFO  [warn] scalajs-library_2.13-1.10.1.jar no longer exists at /home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.10.1/scalajs-library_2.13-1.10.1.jar
+2022.11.06 14:59:19 INFO  [warn] utest_2.13-0.8.0.jar no longer exists at /home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.8.0/utest_2.13-0.8.0.jar
+2022.11.06 14:59:21 INFO  [warn] scalajs-library_2.13-1.10.1-sources.jar no longer exists at /home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.10.1/scalajs-library_2.13-1.10.1-sources.jar
+2022.11.06 14:59:23 INFO  [warn] scala-library-2.13.4-sources.jar no longer exists at /home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4-sources.jar
+2022.11.06 14:59:23 INFO  [success] Generated .bloop/vgutilsJS-test.json
+2022.11.06 14:59:23 INFO  [success] Generated .bloop/vgutilsJS.json
+2022.11.06 14:59:23 INFO  [warn] utest_2.13-0.8.0-sources.jar no longer exists at /home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.8.0/utest_2.13-0.8.0-sources.jar
+2022.11.06 14:59:23 INFO  [success] Generated .bloop/vgutils.json
+2022.11.06 14:59:23 INFO  [success] Generated .bloop/vgutils-test.json
+2022.11.06 14:59:23 INFO  [success] Generated .bloop/vgutilsJVM.json
+2022.11.06 14:59:23 INFO  [success] Generated .bloop/vgutilsJVM-test.json
+2022.11.06 14:59:23 INFO  [success] Total time: 4 s, completed Nov 6, 2022, 2:59:23 PM
+2022.11.06 14:59:24 INFO  time: ran 'sbt bloopInstall' in 19s
+2022.11.06 14:59:24 INFO  Attempting to connect to the build server...
+2022.11.06 14:59:24 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 14:59:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 14:59:27 INFO  Attempting to connect to the build server...
+2022.11.06 14:59:27 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 14:59:27 INFO  Attempting to connect to the build server...
+2022.11.06 14:59:27 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 14:59:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 14:59:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 14:59:27 INFO  time: Connected to build server in 3.42s
+2022.11.06 14:59:27 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 14:59:31 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 14:59:34 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 14:59:34 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 14:59:34 INFO  time: indexed workspace in 7.13s
+2022.11.06 14:59:35 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge
+2022.11.06 14:59:35 ERROR   called from core module module initializers
+2022.11.06 14:59:35 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void
+2022.11.06 14:59:35 ERROR   called from core module module initializers
+2022.11.06 14:59:35 ERROR JavaScript linking failed with 'There were linking errors'
+2022.11.06 14:59:38 INFO  Generated JavaScript file '/home/skac/Documents/projekty/vgutils/.bloop/vgutilsJS/vgutilsJS-test.js'
+2022.11.06 15:00:23 INFO  compiling vgutilsjs (22 scala sources)
+Nov 06, 2022 3:00:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.11.06 15:00:27 WARN  12 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.11.06 15:00:27 WARN  14 feature warnings; re-run with -feature for details
+2022.11.06 15:00:27 INFO  time: compiled vgutilsJS in 4.4s
+2022.11.06 15:00:41 INFO  compiling vgutilsjs (1 scala source)
+2022.11.06 15:00:42 INFO  time: compiled vgutilsJS in 1.58s
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-5-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-5-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.11.06 15:22:58 INFO  shutting down Metals
+2022.11.06 15:22:58 INFO  Shut down connection with build server.
+2022.11.06 15:22:58 INFO  Shut down connection with build server.
+Nov 06, 2022 3:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:257)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:26)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:26)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:26)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.cancel(MetalsLanguageServer.scala:137)
+	at scala.meta.internal.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:1039)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 39 more
+
+2022.11.06 15:22:58 INFO  Cancelling compilation on Bloop server
+2022.11.06 15:22:58 INFO  Cancelling compilation on Bloop server
+2022.11.06 15:22:58 INFO  Cancelling compilation on Bloop server
+2022.11.06 15:22:58 INFO  Cancelling compilation on Bloop server
+2022.11.06 15:22:58 INFO  Cancelling compilation on Bloop server
+2022.11.06 15:22:58 INFO  Cancelling compilation on Bloop server
+2022.11.06 15:22:58 INFO  Cancelling compilation on Bloop server
+2022.11.06 19:51:54 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/lsp.trace.json or /home/skac/.cache/metals/lsp.trace.json
+2022.11.06 19:51:55 INFO  logging to file /home/skac/Documents/projekty/vgutils/.metals/metals.log
+2022.11.06 19:51:55 INFO  Started: Metals version 0.11.9 in workspace '/home/skac/Documents/projekty/vgutils' for client Visual Studio Code 1.73.0.
+2022.11.06 19:51:56 INFO  time: initialize in 1.33s
+2022.11.06 19:51:58 INFO  Attempting to connect to the build server...
+2022.11.06 19:51:58 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 19:51:58 INFO  skipping build import with status 'Installed'
+2022.11.06 19:51:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 19:51:58 INFO  Attempting to connect to the build server...
+2022.11.06 19:51:58 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 19:51:58 INFO  Attempting to connect to the build server...
+2022.11.06 19:51:58 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 19:51:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 19:51:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 19:51:58 INFO  time: Connected to build server in 0.39s
+2022.11.06 19:51:58 INFO  Connected to Build server: Bloop v1.5.4
+Nov 06, 2022 7:51:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.11.06 19:51:58 INFO  time: Imported build in 0.1s
+2022.11.06 19:52:01 INFO  no build target found for /home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/ColorVector.scala. Using presentation compiler with project's scala-library version: 3.2.0
+Nov 06, 2022 7:52:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Nov 06, 2022 7:52:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2022.11.06 19:52:02 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 19:52:02 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 19:52:02 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 19:52:02 INFO  time: indexed workspace in 4.12s
+2022.11.06 19:52:03 INFO  compiling vgutilsjvm (23 scala sources)
+2022.11.06 19:52:03 INFO  compiling vgutilsjs (4 scala sources)
+2022.11.06 19:52:05 INFO  time: compiled vgutilsJVM in 2.5s
+2022.11.06 19:52:05 INFO  time: compiled vgutilsJS in 2.53s
+2022.11.06 19:52:05 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge
+2022.11.06 19:52:05 ERROR   called from core module module initializers
+2022.11.06 19:52:05 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void
+2022.11.06 19:52:05 ERROR   called from core module module initializers
+2022.11.06 19:52:05 ERROR JavaScript linking failed with 'There were linking errors'
+2022.11.06 19:52:05 INFO  compiling vgutilsjs (4 scala sources)
+2022.11.06 19:52:05 INFO  Generated JavaScript file '/home/skac/Documents/projekty/vgutils/.bloop/vgutilsJS/vgutilsJS-test.js'
+2022.11.06 19:52:05 INFO  time: compiled vgutilsJS in 0.23s
+2022.11.06 19:52:08 INFO  compiling vgutilsjs (4 scala sources)
+2022.11.06 19:52:08 INFO  time: compiled vgutilsJS in 0.21s
+Exception in thread "pool-4-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.11.06 19:55:59 INFO  shutting down Metals
+2022.11.06 19:55:59 INFO  Shut down connection with build server.
+2022.11.06 19:55:59 INFO  Shut down connection with build server.
+Nov 06, 2022 7:55:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:257)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:26)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:26)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:26)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.cancel(MetalsLanguageServer.scala:137)
+	at scala.meta.internal.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:1039)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 39 more
+
+2022.11.06 19:55:59 INFO  Cancelling compilation on Bloop server
+2022.11.06 19:55:59 INFO  Cancelling compilation on Bloop server
+2022.11.06 19:57:14 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/lsp.trace.json or /home/skac/.cache/metals/lsp.trace.json
+2022.11.06 19:57:15 INFO  logging to file /home/skac/Documents/projekty/vgutils/.metals/metals.log
+2022.11.06 19:57:15 INFO  Started: Metals version 0.11.9 in workspace '/home/skac/Documents/projekty/vgutils' for client Visual Studio Code 1.73.0.
+2022.11.06 19:57:16 INFO  time: initialize in 1.48s
+2022.11.06 19:57:18 INFO  Attempting to connect to the build server...
+2022.11.06 19:57:18 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 19:57:18 INFO  skipping build import with status 'Installed'
+2022.11.06 19:57:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 19:57:18 INFO  Attempting to connect to the build server...
+2022.11.06 19:57:18 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 19:57:18 INFO  Attempting to connect to the build server...
+2022.11.06 19:57:18 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 19:57:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 19:57:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 19:57:19 INFO  time: Connected to build server in 0.69s
+2022.11.06 19:57:19 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 19:57:21 INFO  no build target found for /home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/Color.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.06 19:57:21 INFO  time: code lens generation in 3.15s
+Nov 06, 2022 7:57:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Nov 06, 2022 7:57:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Nov 06, 2022 7:57:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Nov 06, 2022 7:57:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2022.11.06 19:57:24 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 19:57:24 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 19:57:24 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 19:57:24 INFO  time: indexed workspace in 2.85s
+2022.11.06 19:57:24 INFO  compiling vgutilsjs (4 scala sources)
+2022.11.06 19:57:24 INFO  compiling vgutilsjvm (23 scala sources)
+2022.11.06 19:57:24 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge
+2022.11.06 19:57:24 ERROR   called from core module module initializers
+2022.11.06 19:57:24 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void
+2022.11.06 19:57:24 ERROR   called from core module module initializers
+2022.11.06 19:57:24 ERROR JavaScript linking failed with 'There were linking errors'
+2022.11.06 19:57:26 INFO  time: compiled vgutilsJS in 2.04s
+2022.11.06 19:57:26 INFO  time: compiled vgutilsJVM in 2.07s
+2022.11.06 19:57:26 INFO  Generated JavaScript file '/home/skac/Documents/projekty/vgutils/.bloop/vgutilsJS/vgutilsJS-test.js'
+2022.11.06 19:57:26 INFO  compiling vgutilsjs (4 scala sources)
+2022.11.06 19:57:26 INFO  time: compiled vgutilsJS in 0.36s
+2022.11.06 19:57:26 INFO  compiling vgutilsjvm (23 scala sources)
+2022.11.06 19:57:26 INFO  compiling vgutilsjs (4 scala sources)
+2022.11.06 19:57:26 INFO  time: compiled vgutilsJS in 0.3s
+2022.11.06 19:57:28 INFO  time: compiled vgutilsJVM in 0.67s
+Nov 06, 2022 7:57:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Exception in thread "pool-4-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Nov 06, 2022 7:58:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 143
+Nov 06, 2022 8:15:26 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 06, 2022 8:15:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:420)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.AutoImportsProvider.autoImports(AutoImportsProvider.scala:26)
+
+Nov 06, 2022 8:15:27 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 06, 2022 8:15:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:420)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.AutoImportsProvider.autoImports(AutoImportsProvider.scala:26)
+
+Nov 06, 2022 8:16:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1344
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:10:29: stale bloop error: not found: value Pi
+  lazy val pi_3_inv = 3.0 / Pi
+                            ^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:14:18: stale bloop error: not found: value abs
+    val C = (1 - abs(2*l - 1.0))*sat
+                 ^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:11: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+          ^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:19: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                  ^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:27: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                          ^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:35: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                  ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:57: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                        ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:79: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                                              ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:49:43: stale bloop error: not found: value round
+      val to_hex = (value: Double) => f"${round(value * 255)}%02x"
+                                          ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:51:9: stale bloop error: missing parameter type for expanded function ((<x$2: error>, x$3: Nothing) => x$2.$plus(x$3))
+        _ + _
+        ^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:58:24: stale bloop error: not found: value round
+  lazy val rInt: Int = round(r * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:60:24: stale bloop error: not found: value round
+  lazy val gInt: Int = round(g * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:62:24: stale bloop error: not found: value round
+  lazy val bInt: Int = round(b * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:64:24: stale bloop error: not found: value round
+  lazy val aInt: Int = round(a * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:11: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+          ^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:19: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                  ^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:27: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                          ^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:35: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                  ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:57: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                        ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:79: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                                              ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:49:43: stale bloop error: not found: value round
+      val to_hex = (value: Double) => f"${round(value * 255)}%02x"
+                                          ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:88:20: stale bloop error: not found: value Pi
+    Angle(hue_60 * Pi / 3.0)
+                   ^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:104:27: stale bloop error: not found: value abs
+     case _ => C / (1.0 - abs(2*l - 1.0))
+                          ^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:107:37: stale bloop error: not found: value normalize
+  def addR(v: Double = 1.0) = Color(normalize(r + v), g, b, a)
+                                    ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:51:9: stale bloop error: missing parameter type for expanded function ((<x$2: error>, x$3: Nothing) => x$2.$plus(x$3))
+        _ + _
+        ^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:108:40: stale bloop error: not found: value normalize
+  def addG(v: Double = 1.0) = Color(r, normalize(g + v), b, a)
+                                       ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:109:43: stale bloop error: not found: value normalize
+  def addB(v: Double = 1.0) = Color(r, g, normalize(b + v), a)
+                                          ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:110:24: stale bloop error: not found: value hsla
+  def addH(v: Angle) = hsla(h + v, s, l, a)
+                       ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:58:24: stale bloop error: not found: value round
+  lazy val rInt: Int = round(r * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:25: stale bloop error: not found: value hsla
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                        ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:33: stale bloop error: not found: value normalize
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                                ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:60:24: stale bloop error: not found: value round
+  lazy val gInt: Int = round(g * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:25: stale bloop error: not found: value hsla
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                        ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:62:24: stale bloop error: not found: value round
+  lazy val bInt: Int = round(b * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:36: stale bloop error: not found: value normalize
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                                   ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:64:24: stale bloop error: not found: value round
+  lazy val aInt: Int = round(a * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:113:29: stale bloop error: not found: value hsla
+  def setH(new_h: Double) = hsla(new_h, s, l, a)
+                            ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:114:29: stale bloop error: not found: value hsla
+  def setS(new_s: Double) = hsla(h, new_s, l, a)
+                            ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:115:29: stale bloop error: not found: value hsla
+  def setL(new_l: Double) = hsla(h, s, new_l, a)
+                            ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:88:20: stale bloop error: not found: value Pi
+    Angle(hue_60 * Pi / 3.0)
+                   ^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:104:27: stale bloop error: not found: value abs
+     case _ => C / (1.0 - abs(2*l - 1.0))
+                          ^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:107:37: stale bloop error: not found: value normalize
+  def addR(v: Double = 1.0) = Color(normalize(r + v), g, b, a)
+                                    ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:108:40: stale bloop error: not found: value normalize
+  def addG(v: Double = 1.0) = Color(r, normalize(g + v), b, a)
+                                       ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:109:43: stale bloop error: not found: value normalize
+  def addB(v: Double = 1.0) = Color(r, g, normalize(b + v), a)
+                                          ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:110:24: stale bloop error: not found: value hsla
+  def addH(v: Angle) = hsla(h + v, s, l, a)
+                       ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:25: stale bloop error: not found: value hsla
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                        ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:33: stale bloop error: not found: value normalize
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                                ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:25: stale bloop error: not found: value hsla
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                        ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:36: stale bloop error: not found: value normalize
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                                   ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:113:29: stale bloop error: not found: value hsla
+  def setH(new_h: Double) = hsla(new_h, s, l, a)
+                            ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:114:29: stale bloop error: not found: value hsla
+  def setS(new_s: Double) = hsla(h, new_s, l, a)
+                            ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:115:29: stale bloop error: not found: value hsla
+  def setL(new_l: Double) = hsla(h, s, new_l, a)
+                            ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:10:29: stale bloop error: not found: value Pi
+  lazy val pi_3_inv = 3.0 / Pi
+                            ^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:14:18: stale bloop error: not found: value abs
+    val C = (1 - abs(2*l - 1.0))*sat
+                 ^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:11: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+          ^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:19: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                  ^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:27: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                          ^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:35: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                  ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:57: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                        ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:79: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                                              ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:49:43: stale bloop error: not found: value round
+      val to_hex = (value: Double) => f"${round(value * 255)}%02x"
+                                          ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:51:9: stale bloop error: missing parameter type for expanded function ((<x$2: error>, x$3: Nothing) => x$2.$plus(x$3))
+        _ + _
+        ^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:58:24: stale bloop error: not found: value round
+  lazy val rInt: Int = round(r * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:60:24: stale bloop error: not found: value round
+  lazy val gInt: Int = round(g * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:62:24: stale bloop error: not found: value round
+  lazy val bInt: Int = round(b * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:64:24: stale bloop error: not found: value round
+  lazy val aInt: Int = round(a * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:11: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+          ^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:19: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                  ^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:27: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                          ^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:35: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                  ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:57: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                        ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:79: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                                              ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:49:43: stale bloop error: not found: value round
+      val to_hex = (value: Double) => f"${round(value * 255)}%02x"
+                                          ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:88:20: stale bloop error: not found: value Pi
+    Angle(hue_60 * Pi / 3.0)
+                   ^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:104:27: stale bloop error: not found: value abs
+     case _ => C / (1.0 - abs(2*l - 1.0))
+                          ^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:107:37: stale bloop error: not found: value normalize
+  def addR(v: Double = 1.0) = Color(normalize(r + v), g, b, a)
+                                    ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:51:9: stale bloop error: missing parameter type for expanded function ((<x$2: error>, x$3: Nothing) => x$2.$plus(x$3))
+        _ + _
+        ^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:108:40: stale bloop error: not found: value normalize
+  def addG(v: Double = 1.0) = Color(r, normalize(g + v), b, a)
+                                       ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:109:43: stale bloop error: not found: value normalize
+  def addB(v: Double = 1.0) = Color(r, g, normalize(b + v), a)
+                                          ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:110:24: stale bloop error: not found: value hsla
+  def addH(v: Angle) = hsla(h + v, s, l, a)
+                       ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:58:24: stale bloop error: not found: value round
+  lazy val rInt: Int = round(r * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:25: stale bloop error: not found: value hsla
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                        ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:33: stale bloop error: not found: value normalize
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                                ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:60:24: stale bloop error: not found: value round
+  lazy val gInt: Int = round(g * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:25: stale bloop error: not found: value hsla
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                        ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:62:24: stale bloop error: not found: value round
+  lazy val bInt: Int = round(b * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:36: stale bloop error: not found: value normalize
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                                   ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:64:24: stale bloop error: not found: value round
+  lazy val aInt: Int = round(a * 255).toInt
+                       ^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:113:29: stale bloop error: not found: value hsla
+  def setH(new_h: Double) = hsla(new_h, s, l, a)
+                            ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:114:29: stale bloop error: not found: value hsla
+  def setS(new_s: Double) = hsla(h, new_s, l, a)
+                            ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:115:29: stale bloop error: not found: value hsla
+  def setL(new_l: Double) = hsla(h, s, new_l, a)
+                            ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:88:20: stale bloop error: not found: value Pi
+    Angle(hue_60 * Pi / 3.0)
+                   ^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:104:27: stale bloop error: not found: value abs
+     case _ => C / (1.0 - abs(2*l - 1.0))
+                          ^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:107:37: stale bloop error: not found: value normalize
+  def addR(v: Double = 1.0) = Color(normalize(r + v), g, b, a)
+                                    ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:108:40: stale bloop error: not found: value normalize
+  def addG(v: Double = 1.0) = Color(r, normalize(g + v), b, a)
+                                       ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:109:43: stale bloop error: not found: value normalize
+  def addB(v: Double = 1.0) = Color(r, g, normalize(b + v), a)
+                                          ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:110:24: stale bloop error: not found: value hsla
+  def addH(v: Angle) = hsla(h + v, s, l, a)
+                       ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:25: stale bloop error: not found: value hsla
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                        ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:33: stale bloop error: not found: value normalize
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                                ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:25: stale bloop error: not found: value hsla
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                        ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:36: stale bloop error: not found: value normalize
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                                   ^^^^^^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:113:29: stale bloop error: not found: value hsla
+  def setH(new_h: Double) = hsla(new_h, s, l, a)
+                            ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:114:29: stale bloop error: not found: value hsla
+  def setS(new_s: Double) = hsla(h, new_s, l, a)
+                            ^^^^
+2022.11.06 20:21:47 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:115:29: stale bloop error: not found: value hsla
+  def setL(new_l: Double) = hsla(h, s, new_l, a)
+                            ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:10:29: stale bloop error: not found: value Pi
+  lazy val pi_3_inv = 3.0 / Pi
+                            ^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:14:18: stale bloop error: not found: value abs
+    val C = (1 - abs(2*l - 1.0))*sat
+                 ^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:11: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+          ^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:19: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                  ^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:27: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                          ^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:35: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                  ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:57: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                        ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:79: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                                              ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:49:43: stale bloop error: not found: value round
+      val to_hex = (value: Double) => f"${round(value * 255)}%02x"
+                                          ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:51:9: stale bloop error: missing parameter type for expanded function ((<x$2: error>, x$3: Nothing) => x$2.$plus(x$3))
+        _ + _
+        ^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:58:24: stale bloop error: not found: value round
+  lazy val rInt: Int = round(r * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:60:24: stale bloop error: not found: value round
+  lazy val gInt: Int = round(g * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:62:24: stale bloop error: not found: value round
+  lazy val bInt: Int = round(b * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:64:24: stale bloop error: not found: value round
+  lazy val aInt: Int = round(a * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:11: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+          ^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:19: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                  ^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:27: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                          ^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:35: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                  ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:57: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                        ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:79: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                                              ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:49:43: stale bloop error: not found: value round
+      val to_hex = (value: Double) => f"${round(value * 255)}%02x"
+                                          ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:88:20: stale bloop error: not found: value Pi
+    Angle(hue_60 * Pi / 3.0)
+                   ^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:104:27: stale bloop error: not found: value abs
+     case _ => C / (1.0 - abs(2*l - 1.0))
+                          ^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:107:37: stale bloop error: not found: value normalize
+  def addR(v: Double = 1.0) = Color(normalize(r + v), g, b, a)
+                                    ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:51:9: stale bloop error: missing parameter type for expanded function ((<x$2: error>, x$3: Nothing) => x$2.$plus(x$3))
+        _ + _
+        ^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:108:40: stale bloop error: not found: value normalize
+  def addG(v: Double = 1.0) = Color(r, normalize(g + v), b, a)
+                                       ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:109:43: stale bloop error: not found: value normalize
+  def addB(v: Double = 1.0) = Color(r, g, normalize(b + v), a)
+                                          ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:110:24: stale bloop error: not found: value hsla
+  def addH(v: Angle) = hsla(h + v, s, l, a)
+                       ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:58:24: stale bloop error: not found: value round
+  lazy val rInt: Int = round(r * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:25: stale bloop error: not found: value hsla
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                        ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:33: stale bloop error: not found: value normalize
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                                ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:60:24: stale bloop error: not found: value round
+  lazy val gInt: Int = round(g * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:25: stale bloop error: not found: value hsla
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                        ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:62:24: stale bloop error: not found: value round
+  lazy val bInt: Int = round(b * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:36: stale bloop error: not found: value normalize
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                                   ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:64:24: stale bloop error: not found: value round
+  lazy val aInt: Int = round(a * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:113:29: stale bloop error: not found: value hsla
+  def setH(new_h: Double) = hsla(new_h, s, l, a)
+                            ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:114:29: stale bloop error: not found: value hsla
+  def setS(new_s: Double) = hsla(h, new_s, l, a)
+                            ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:115:29: stale bloop error: not found: value hsla
+  def setL(new_l: Double) = hsla(h, s, new_l, a)
+                            ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:88:20: stale bloop error: not found: value Pi
+    Angle(hue_60 * Pi / 3.0)
+                   ^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:104:27: stale bloop error: not found: value abs
+     case _ => C / (1.0 - abs(2*l - 1.0))
+                          ^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:107:37: stale bloop error: not found: value normalize
+  def addR(v: Double = 1.0) = Color(normalize(r + v), g, b, a)
+                                    ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:108:40: stale bloop error: not found: value normalize
+  def addG(v: Double = 1.0) = Color(r, normalize(g + v), b, a)
+                                       ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:109:43: stale bloop error: not found: value normalize
+  def addB(v: Double = 1.0) = Color(r, g, normalize(b + v), a)
+                                          ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:110:24: stale bloop error: not found: value hsla
+  def addH(v: Angle) = hsla(h + v, s, l, a)
+                       ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:25: stale bloop error: not found: value hsla
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                        ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:33: stale bloop error: not found: value normalize
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                                ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:25: stale bloop error: not found: value hsla
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                        ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:36: stale bloop error: not found: value normalize
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                                   ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:113:29: stale bloop error: not found: value hsla
+  def setH(new_h: Double) = hsla(new_h, s, l, a)
+                            ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:114:29: stale bloop error: not found: value hsla
+  def setS(new_s: Double) = hsla(h, new_s, l, a)
+                            ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:115:29: stale bloop error: not found: value hsla
+  def setL(new_l: Double) = hsla(h, s, new_l, a)
+                            ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:10:29: stale bloop error: not found: value Pi
+  lazy val pi_3_inv = 3.0 / Pi
+                            ^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:14:18: stale bloop error: not found: value abs
+    val C = (1 - abs(2*l - 1.0))*sat
+                 ^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:11: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+          ^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:19: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                  ^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:27: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                          ^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:35: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                  ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:57: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                        ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:79: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                                              ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:49:43: stale bloop error: not found: value round
+      val to_hex = (value: Double) => f"${round(value * 255)}%02x"
+                                          ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:51:9: stale bloop error: missing parameter type for expanded function ((<x$2: error>, x$3: Nothing) => x$2.$plus(x$3))
+        _ + _
+        ^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:58:24: stale bloop error: not found: value round
+  lazy val rInt: Int = round(r * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:60:24: stale bloop error: not found: value round
+  lazy val gInt: Int = round(g * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:62:24: stale bloop error: not found: value round
+  lazy val bInt: Int = round(b * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:64:24: stale bloop error: not found: value round
+  lazy val aInt: Int = round(a * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:11: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+          ^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:19: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                  ^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:27:27: stale bloop error: type mismatch;
+ found   : String
+ required: Double
+    Color(r1 + m, g1 + m, b1 + m, a)
+                          ^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:35: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                  ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:57: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                        ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:42:79: stale bloop error: not found: value normalize
+  def +(vec: ColorVector) = Color(normalize(r + vec.r), normalize(g + vec.g), normalize(b + vec.b), a)
+                                                                              ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:49:43: stale bloop error: not found: value round
+      val to_hex = (value: Double) => f"${round(value * 255)}%02x"
+                                          ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:88:20: stale bloop error: not found: value Pi
+    Angle(hue_60 * Pi / 3.0)
+                   ^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:104:27: stale bloop error: not found: value abs
+     case _ => C / (1.0 - abs(2*l - 1.0))
+                          ^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:107:37: stale bloop error: not found: value normalize
+  def addR(v: Double = 1.0) = Color(normalize(r + v), g, b, a)
+                                    ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:51:9: stale bloop error: missing parameter type for expanded function ((<x$2: error>, x$3: Nothing) => x$2.$plus(x$3))
+        _ + _
+        ^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:108:40: stale bloop error: not found: value normalize
+  def addG(v: Double = 1.0) = Color(r, normalize(g + v), b, a)
+                                       ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:109:43: stale bloop error: not found: value normalize
+  def addB(v: Double = 1.0) = Color(r, g, normalize(b + v), a)
+                                          ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:110:24: stale bloop error: not found: value hsla
+  def addH(v: Angle) = hsla(h + v, s, l, a)
+                       ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:58:24: stale bloop error: not found: value round
+  lazy val rInt: Int = round(r * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:25: stale bloop error: not found: value hsla
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                        ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:33: stale bloop error: not found: value normalize
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                                ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:60:24: stale bloop error: not found: value round
+  lazy val gInt: Int = round(g * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:25: stale bloop error: not found: value hsla
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                        ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:62:24: stale bloop error: not found: value round
+  lazy val bInt: Int = round(b * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:36: stale bloop error: not found: value normalize
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                                   ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:64:24: stale bloop error: not found: value round
+  lazy val aInt: Int = round(a * 255).toInt
+                       ^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:113:29: stale bloop error: not found: value hsla
+  def setH(new_h: Double) = hsla(new_h, s, l, a)
+                            ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:114:29: stale bloop error: not found: value hsla
+  def setS(new_s: Double) = hsla(h, new_s, l, a)
+                            ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:115:29: stale bloop error: not found: value hsla
+  def setL(new_l: Double) = hsla(h, s, new_l, a)
+                            ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:88:20: stale bloop error: not found: value Pi
+    Angle(hue_60 * Pi / 3.0)
+                   ^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:104:27: stale bloop error: not found: value abs
+     case _ => C / (1.0 - abs(2*l - 1.0))
+                          ^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:107:37: stale bloop error: not found: value normalize
+  def addR(v: Double = 1.0) = Color(normalize(r + v), g, b, a)
+                                    ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:108:40: stale bloop error: not found: value normalize
+  def addG(v: Double = 1.0) = Color(r, normalize(g + v), b, a)
+                                       ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:109:43: stale bloop error: not found: value normalize
+  def addB(v: Double = 1.0) = Color(r, g, normalize(b + v), a)
+                                          ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:110:24: stale bloop error: not found: value hsla
+  def addH(v: Angle) = hsla(h + v, s, l, a)
+                       ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:25: stale bloop error: not found: value hsla
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                        ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:111:33: stale bloop error: not found: value normalize
+  def addS(v: Double) = hsla(h, normalize(s + v), l, a)
+                                ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:25: stale bloop error: not found: value hsla
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                        ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:112:36: stale bloop error: not found: value normalize
+  def addL(v: Double) = hsla(h, s, normalize(l + v), a)
+                                   ^^^^^^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:113:29: stale bloop error: not found: value hsla
+  def setH(new_h: Double) = hsla(new_h, s, l, a)
+                            ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:114:29: stale bloop error: not found: value hsla
+  def setS(new_s: Double) = hsla(h, new_s, l, a)
+                            ^^^^
+2022.11.06 20:24:30 INFO  file:///home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/AbstractColor.scala:115:29: stale bloop error: not found: value hsla
+  def setL(new_l: Double) = hsla(h, s, new_l, a)
+                            ^^^^
+Nov 06, 2022 8:25:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1730
+Nov 06, 2022 8:42:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3060
+Exception in thread "pool-4-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.11.06 21:04:45 INFO  Disconnecting from Bloop session...
+2022.11.06 21:04:45 INFO  Shut down connection with build server.
+2022.11.06 21:04:45 INFO  Shut down connection with build server.
+2022.11.06 21:04:47 ERROR timeout: build server 'bloop' during shutdown
+2022.11.06 21:04:47 INFO  Attempting to connect to the build server...
+2022.11.06 21:04:47 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:04:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:04:47 INFO  Attempting to connect to the build server...
+2022.11.06 21:04:47 INFO  Attempting to connect to the build server...
+2022.11.06 21:04:47 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:04:47 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:04:47 INFO  Attempting to connect to the build server...
+2022.11.06 21:04:47 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:04:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:04:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:04:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:04:47 INFO  Attempting to connect to the build server...
+2022.11.06 21:04:47 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:04:47 INFO  Attempting to connect to the build server...
+2022.11.06 21:04:47 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:04:47 INFO  time: Connected to build server in 0.18s
+2022.11.06 21:04:47 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:04:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:04:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:04:48 INFO  time: Connected to build server in 0.12s
+2022.11.06 21:04:48 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:04:48 INFO  Disconnecting from Bloop session...
+2022.11.06 21:04:48 INFO  Shut down connection with build server.
+2022.11.06 21:04:48 INFO  Shut down connection with build server.
+2022.11.06 21:04:48 INFO  Shut down connection with build server.
+Nov 06, 2022 9:04:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:257)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:122)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:115)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2022.11.06 21:04:48 INFO  Attempting to connect to the build server...
+2022.11.06 21:04:48 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:04:48 ERROR Failed to connect with build server, no functionality will work.scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: SourcesResult
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$6(BuildServerConnection.scala:358)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:356)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:339)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+Caused by: java.util.concurrent.CancellationException
+	at java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2396)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:151)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:257)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:122)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:115)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.11.06 21:04:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:04:48 INFO  Attempting to connect to the build server...
+2022.11.06 21:04:48 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:04:48 INFO  Attempting to connect to the build server...
+2022.11.06 21:04:48 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:04:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:04:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:04:48 INFO  time: Connected to build server in 0.15s
+2022.11.06 21:04:48 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:04:50 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:04:50 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:04:50 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:04:50 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:04:50 INFO  time: indexed workspace in 2.25s
+2022.11.06 21:04:50 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:04:50 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:04:50 INFO  time: indexed workspace in 1.97s
+2022.11.06 21:04:50 INFO  compiling vgutilsjs (5 scala sources)
+2022.11.06 21:04:50 INFO  compiling vgutilsjvm (24 scala sources)
+2022.11.06 21:04:51 INFO  time: compiled vgutilsJVM in 1.33s
+2022.11.06 21:04:51 INFO  time: compiled vgutilsJS in 1.34s
+2022.11.06 21:04:51 INFO  compiling vgutilsjvm (24 scala sources)
+2022.11.06 21:04:51 INFO  compiling vgutilsjs (5 scala sources)
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-283303049194650309.scala is not a file
+2022.11.06 21:04:51 INFO  time: compiled vgutilsJVM in 0.16s
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-5345927170028225055.scala is not a file
+2022.11.06 21:04:51 INFO  time: compiled vgutilsJS in 0.33s
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-283303049194650309.scala is not a file
+2022.11.06 21:05:24 INFO  Disconnecting from Bloop session...
+2022.11.06 21:05:24 INFO  Shut down connection with build server.
+2022.11.06 21:05:24 INFO  Shut down connection with build server.
+2022.11.06 21:05:24 INFO  Shut down connection with build server.
+2022.11.06 21:05:24 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:24 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:24 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:24 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:24 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:24 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:24 INFO  time: Connected to build server in 0.15s
+2022.11.06 21:05:24 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:05:25 INFO  Disconnecting from Bloop session...
+2022.11.06 21:05:25 INFO  Shut down connection with build server.
+2022.11.06 21:05:25 INFO  Shut down connection with build server.
+2022.11.06 21:05:25 INFO  Shut down connection with build server.
+2022.11.06 21:05:25 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:25 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:25 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:25 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:25 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:25 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:25 INFO  time: Connected to build server in 0.12s
+2022.11.06 21:05:25 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:05:25 INFO  Disconnecting from Bloop session...
+2022.11.06 21:05:25 INFO  Shut down connection with build server.
+2022.11.06 21:05:25 INFO  Shut down connection with build server.
+2022.11.06 21:05:25 INFO  Shut down connection with build server.
+2022.11.06 21:05:26 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:26 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:26 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:26 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:26 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:26 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:25 INFO  time: Connected to build server in 0.13s
+2022.11.06 21:05:25 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:05:26 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:26 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:26 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:26 INFO  time: indexed workspace in 1.95s
+2022.11.06 21:05:25 INFO  compiling vgutilsjvm (24 scala sources)
+2022.11.06 21:05:25 INFO  compiling vgutilsjs (5 scala sources)
+2022.11.06 21:05:28 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:28 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:28 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:28 INFO  time: indexed workspace in 2.41s
+2022.11.06 21:05:28 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:28 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:28 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:28 INFO  time: indexed workspace in 2.35s
+2022.11.06 21:05:28 INFO  time: compiled vgutilsJVM in 1.91s
+2022.11.06 21:05:28 INFO  time: compiled vgutilsJS in 1.9s
+2022.11.06 21:05:28 INFO  compiling vgutilsjs (5 scala sources)
+2022.11.06 21:05:28 INFO  compiling vgutilsjvm (24 scala sources)
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-5665518935865657304.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main3793032812874156567.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-2592146855466888847.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-5665518935865657304.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main3793032812874156567.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-2592146855466888847.scala is not a file
+2022.11.06 21:05:28 INFO  time: compiled vgutilsJVM in 0.22s
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-5665518935865657304.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main3793032812874156567.scala is not a file
+2022.11.06 21:05:28 INFO  time: compiled vgutilsJS in 0.28s
+2022.11.06 21:05:40 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals5896904114095911820/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.11.06 21:05:41 INFO  [info] welcome to sbt 1.5.2 (Ubuntu Java 11.0.16)
+2022.11.06 21:05:43 INFO  [info] loading global plugins from /home/skac/.sbt/1.0/plugins
+2022.11.06 21:05:45 INFO  [info] loading settings for project vgutils-build-build-build from metals.sbt ...
+2022.11.06 21:05:45 INFO  [info] loading project definition from /home/skac/Documents/projekty/vgutils/project/project/project
+2022.11.06 21:05:45 INFO  [info] loading settings for project vgutils-build-build from metals.sbt ...
+2022.11.06 21:05:45 INFO  [info] loading project definition from /home/skac/Documents/projekty/vgutils/project/project
+2022.11.06 21:05:47 INFO  [success] Generated .bloop/vgutils-build-build.json
+2022.11.06 21:05:47 INFO  [success] Total time: 2 s, completed Nov 6, 2022, 9:05:47 PM
+2022.11.06 21:05:47 INFO  [info] loading settings for project vgutils-build from metals.sbt,plugins.sbt ...
+2022.11.06 21:05:47 INFO  [info] loading project definition from /home/skac/Documents/projekty/vgutils/project
+2022.11.06 21:05:47 INFO  [success] Generated .bloop/vgutils-build.json
+2022.11.06 21:05:48 INFO  [success] Total time: 1 s, completed Nov 6, 2022, 9:05:48 PM
+2022.11.06 21:05:48 INFO  [info] loading settings for project vgutils from build.sbt ...
+2022.11.06 21:05:48 INFO  [info] set current project to vgutils (in build file:/home/skac/Documents/projekty/vgutils/)
+2022.11.06 21:05:48 INFO  [success] Generated .bloop/vgutilsJS.json
+2022.11.06 21:05:48 INFO  [success] Generated .bloop/vgutils.json
+2022.11.06 21:05:48 INFO  [success] Generated .bloop/vgutilsJS-test.json
+2022.11.06 21:05:48 INFO  [success] Generated .bloop/vgutilsJVM.json
+2022.11.06 21:05:48 INFO  [success] Generated .bloop/vgutils-test.json
+2022.11.06 21:05:48 INFO  [success] Generated .bloop/vgutilsJVM-test.json
+2022.11.06 21:05:48 INFO  [success] Total time: 0 s, completed Nov 6, 2022, 9:05:49 PM
+2022.11.06 21:05:49 INFO  time: ran 'sbt bloopInstall' in 9.56s
+2022.11.06 21:05:49 INFO  Disconnecting from Bloop session...
+2022.11.06 21:05:49 INFO  Shut down connection with build server.
+2022.11.06 21:05:49 INFO  Shut down connection with build server.
+2022.11.06 21:05:49 INFO  Shut down connection with build server.
+2022.11.06 21:05:49 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:49 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:49 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:49 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:49 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:49 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:49 INFO  time: Connected to build server in 0.17s
+2022.11.06 21:05:49 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:05:51 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:51 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:51 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:51 INFO  time: indexed workspace in 1.26s
+2022.11.06 21:05:51 INFO  compiling vgutilsjvm (24 scala sources)
+2022.11.06 21:05:51 INFO  compiling vgutilsjs (5 scala sources)
+2022.11.06 21:05:52 INFO  time: compiled vgutilsJVM in 1.31s
+2022.11.06 21:05:52 INFO  time: compiled vgutilsJS in 1.29s
+2022.11.06 21:05:57 INFO  Disconnecting from Bloop session...
+2022.11.06 21:05:57 INFO  Shut down connection with build server.
+2022.11.06 21:05:57 INFO  Shut down connection with build server.
+2022.11.06 21:05:57 INFO  Shut down connection with build server.
+2022.11.06 21:05:57 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:57 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:57 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:57 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:57 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:57 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:57 INFO  time: Connected to build server in 0.14s
+2022.11.06 21:05:57 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:05:57 INFO  Disconnecting from Bloop session...
+2022.11.06 21:05:57 INFO  Shut down connection with build server.
+2022.11.06 21:05:57 INFO  Shut down connection with build server.
+2022.11.06 21:05:57 INFO  Shut down connection with build server.
+2022.11.06 21:05:57 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:57 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:57 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:57 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:57 INFO  Attempting to connect to the build server...
+2022.11.06 21:05:57 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:05:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:05:57 INFO  time: Connected to build server in 98ms
+2022.11.06 21:05:57 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:05:58 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:58 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:58 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:58 INFO  time: indexed workspace in 1.53s
+2022.11.06 21:05:58 INFO  compiling vgutilsjvm (24 scala sources)
+2022.11.06 21:05:58 INFO  compiling vgutilsjs (5 scala sources)
+2022.11.06 21:05:59 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:59 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:59 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:05:59 INFO  time: indexed workspace in 1.75s
+2022.11.06 21:06:00 INFO  time: compiled vgutilsJVM in 1.38s
+2022.11.06 21:06:00 INFO  time: compiled vgutilsJS in 1.38s
+2022.11.06 21:06:00 INFO  compiling vgutilsjvm (24 scala sources)
+2022.11.06 21:06:00 INFO  compiling vgutilsjs (5 scala sources)
+2022.11.06 21:06:00 INFO  time: compiled vgutilsJVM in 85ms
+2022.11.06 21:06:00 INFO  time: compiled vgutilsJS in 0.14s
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-7902725562369527492.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-4817742881110188075.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-7902725562369527492.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-4817742881110188075.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-7902725562369527492.scala is not a file
+2022.11.06 21:06:04 INFO  Disconnecting from Bloop session...
+2022.11.06 21:06:04 INFO  Shut down connection with build server.
+2022.11.06 21:06:04 INFO  Shut down connection with build server.
+2022.11.06 21:06:04 INFO  Shut down connection with build server.
+2022.11.06 21:06:04 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:04 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:04 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:04 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:04 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:04 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:04 INFO  time: Connected to build server in 0.14s
+2022.11.06 21:06:04 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:06:04 INFO  Disconnecting from Bloop session...
+2022.11.06 21:06:04 INFO  Shut down connection with build server.
+2022.11.06 21:06:04 INFO  Shut down connection with build server.
+2022.11.06 21:06:04 INFO  Shut down connection with build server.
+Nov 06, 2022 9:06:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:257)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:122)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:115)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2022.11.06 21:06:04 ERROR Failed to connect with build server, no functionality will work.scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: SourcesResult
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$6(BuildServerConnection.scala:358)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:356)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:339)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+Caused by: java.util.concurrent.CancellationException
+	at java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2396)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:151)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:257)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:122)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:115)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+Nov 06, 2022 9:06:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:257)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:122)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:115)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2022.11.06 21:06:04 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:04 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:04 INFO  Scala targets not supported by server
+2022.11.06 21:06:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:04 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:04 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:04 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:04 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:04 INFO  time: Connected to build server in 0.14s
+2022.11.06 21:06:04 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:06:04 INFO  Disconnecting from Bloop session...
+2022.11.06 21:06:04 INFO  Shut down connection with build server.
+2022.11.06 21:06:04 INFO  Shut down connection with build server.
+2022.11.06 21:06:04 INFO  Shut down connection with build server.
+2022.11.06 21:06:04 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:04 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:04 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:04 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:04 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:04 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:05 INFO  time: Connected to build server in 0.13s
+2022.11.06 21:06:05 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:06:06 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:06 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:06 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:06 INFO  time: indexed workspace in 1.52s
+2022.11.06 21:06:06 INFO  compiling vgutilsjvm (24 scala sources)
+2022.11.06 21:06:06 INFO  compiling vgutilsjs (5 scala sources)
+2022.11.06 21:06:06 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:06 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:06 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:06 INFO  time: indexed workspace in 1.65s
+2022.11.06 21:06:07 INFO  time: compiled vgutilsJVM in 1.3s
+2022.11.06 21:06:07 INFO  time: compiled vgutilsJS in 1.29s
+2022.11.06 21:06:07 INFO  compiling vgutilsjvm (24 scala sources)
+2022.11.06 21:06:07 INFO  compiling vgutilsjs (5 scala sources)
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main6960374378225235643.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main6115206185976253833.scala is not a file
+2022.11.06 21:06:07 INFO  time: compiled vgutilsJVM in 0.12s
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main6960374378225235643.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main6115206185976253833.scala is not a file
+2022.11.06 21:06:07 INFO  time: compiled vgutilsJS in 0.19s
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main6960374378225235643.scala is not a file
+2022.11.06 21:06:14 INFO  compiling vgutilsjvm (24 scala sources)
+2022.11.06 21:06:14 INFO  compiling vgutilsjs (24 scala sources)
+2022.11.06 21:06:14 INFO  time: compiled vgutilsJVM in 68ms
+2022.11.06 21:06:14 INFO  time: compiled vgutilsJS in 0.14s
+2022.11.06 21:06:15 INFO  compiling vgutilsjs (24 scala sources)
+2022.11.06 21:06:15 INFO  compiling vgutilsjvm (24 scala sources)
+2022.11.06 21:06:15 INFO  time: compiled vgutilsJVM in 73ms
+2022.11.06 21:06:15 INFO  time: compiled vgutilsJS in 0.12s
+2022.11.06 21:06:15 INFO  compiling vgutilsjs (24 scala sources)
+2022.11.06 21:06:15 INFO  compiling vgutilsjvm (24 scala sources)
+2022.11.06 21:06:15 INFO  time: compiled vgutilsJS in 39ms
+2022.11.06 21:06:15 INFO  time: compiled vgutilsJVM in 48ms
+2022.11.06 21:06:18 INFO  Disconnecting from Bloop session...
+2022.11.06 21:06:18 INFO  Shut down connection with build server.
+2022.11.06 21:06:18 INFO  Shut down connection with build server.
+2022.11.06 21:06:18 INFO  Shut down connection with build server.
+2022.11.06 21:06:18 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:18 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:19 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:19 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:19 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:19 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:22 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:22 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:22 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:22 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:22 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:22 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:22 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:22 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:22 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:22 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:22 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:22 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:22 INFO  time: Connected to build server in 4.47s
+2022.11.06 21:06:22 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:06:22 INFO  time: Connected to build server in 3.12s
+2022.11.06 21:06:22 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:06:22 INFO  time: Connected to build server in 3.31s
+2022.11.06 21:06:22 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:06:22 INFO  time: Imported build in 0.2s
+2022.11.06 21:06:22 INFO  time: Imported build in 0.22s
+2022.11.06 21:06:22 INFO  time: Imported build in 0.22s
+2022.11.06 21:06:24 INFO  Disconnecting from Bloop session...
+2022.11.06 21:06:24 INFO  Shut down connection with build server.
+2022.11.06 21:06:24 INFO  Shut down connection with build server.
+2022.11.06 21:06:24 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:24 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:24 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:24 INFO  time: indexed workspace in 1.72s
+2022.11.06 21:06:24 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:24 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:24 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:24 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:24 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:24 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:24 INFO  time: indexed workspace in 1.83s
+2022.11.06 21:06:24 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:24 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:24 INFO  time: indexed workspace in 1.86s
+Nov 06, 2022 9:06:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.Exception: No build server for target IDs file:/home/skac/Documents/projekty/vgutils/project/?id=vgutils-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM, file:/home/skac/Documents/projekty/vgutils/project/project/?id=vgutils-build-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM-test
+java.util.concurrent.CompletionException: java.lang.Exception: No build server for target IDs file:/home/skac/Documents/projekty/vgutils/project/?id=vgutils-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM, file:/home/skac/Documents/projekty/vgutils/project/project/?id=vgutils-build-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM-test
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.Exception: No build server for target IDs file:/home/skac/Documents/projekty/vgutils/project/?id=vgutils-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM, file:/home/skac/Documents/projekty/vgutils/project/project/?id=vgutils-build-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM-test
+	at scala.meta.internal.metals.Compilations.clean$1(Compilations.scala:140)
+	at scala.meta.internal.metals.Compilations.$anonfun$recompileAll$6(Compilations.scala:160)
+	at scala.concurrent.Future$.$anonfun$traverse$1(Future.scala:861)
+	at scala.collection.IterableOnceOps.foldLeft(IterableOnce.scala:675)
+	at scala.collection.IterableOnceOps.foldLeft$(IterableOnce.scala:669)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1300)
+	at scala.concurrent.Future$.traverse(Future.scala:861)
+	at scala.meta.internal.metals.Compilations.recompileAll(Compilations.scala:159)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1878)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Nov 06, 2022 9:06:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.Exception: No build server for target IDs file:/home/skac/Documents/projekty/vgutils/project/?id=vgutils-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM, file:/home/skac/Documents/projekty/vgutils/project/project/?id=vgutils-build-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM-test
+java.util.concurrent.CompletionException: java.lang.Exception: No build server for target IDs file:/home/skac/Documents/projekty/vgutils/project/?id=vgutils-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM, file:/home/skac/Documents/projekty/vgutils/project/project/?id=vgutils-build-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM-test
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.Exception: No build server for target IDs file:/home/skac/Documents/projekty/vgutils/project/?id=vgutils-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM, file:/home/skac/Documents/projekty/vgutils/project/project/?id=vgutils-build-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM-test
+	at scala.meta.internal.metals.Compilations.clean$1(Compilations.scala:140)
+	at scala.meta.internal.metals.Compilations.$anonfun$recompileAll$6(Compilations.scala:160)
+	at scala.concurrent.Future$.$anonfun$traverse$1(Future.scala:861)
+	at scala.collection.IterableOnceOps.foldLeft(IterableOnce.scala:675)
+	at scala.collection.IterableOnceOps.foldLeft$(IterableOnce.scala:669)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1300)
+	at scala.concurrent.Future$.traverse(Future.scala:861)
+	at scala.meta.internal.metals.Compilations.recompileAll(Compilations.scala:159)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1878)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Nov 06, 2022 9:06:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.Exception: No build server for target IDs file:/home/skac/Documents/projekty/vgutils/project/?id=vgutils-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM, file:/home/skac/Documents/projekty/vgutils/project/project/?id=vgutils-build-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM-test
+java.util.concurrent.CompletionException: java.lang.Exception: No build server for target IDs file:/home/skac/Documents/projekty/vgutils/project/?id=vgutils-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM, file:/home/skac/Documents/projekty/vgutils/project/project/?id=vgutils-build-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM-test
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.Exception: No build server for target IDs file:/home/skac/Documents/projekty/vgutils/project/?id=vgutils-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS-test, file:/home/skac/Documents/projekty/vgutils/js/?id=vgutilsJS, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM, file:/home/skac/Documents/projekty/vgutils/project/project/?id=vgutils-build-build, file:/home/skac/Documents/projekty/vgutils/?id=vgutils, file:/home/skac/Documents/projekty/vgutils/jvm/?id=vgutilsJVM-test
+	at scala.meta.internal.metals.Compilations.clean$1(Compilations.scala:140)
+	at scala.meta.internal.metals.Compilations.$anonfun$recompileAll$6(Compilations.scala:160)
+	at scala.concurrent.Future$.$anonfun$traverse$1(Future.scala:861)
+	at scala.collection.IterableOnceOps.foldLeft(IterableOnce.scala:675)
+	at scala.collection.IterableOnceOps.foldLeft$(IterableOnce.scala:669)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1300)
+	at scala.concurrent.Future$.traverse(Future.scala:861)
+	at scala.meta.internal.metals.Compilations.recompileAll(Compilations.scala:159)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1878)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main7850199027582549551.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-2866147665445563215.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-7365047146953164977.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main7850199027582549551.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-2866147665445563215.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-7365047146953164977.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main7850199027582549551.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-2866147665445563215.scala is not a file
+2022.11.06 21:06:26 ERROR timeout: build server 'bloop' during shutdown
+2022.11.06 21:06:26 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:26 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:26 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:27 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:27 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:26 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:27 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:26 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:27 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:26 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:27 INFO  time: Connected to build server in 2.78s
+2022.11.06 21:06:27 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:06:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:27 INFO  time: Connected to build server in 0.96s
+2022.11.06 21:06:27 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:06:27 INFO  time: Imported build in 0.14s
+2022.11.06 21:06:27 INFO  time: Imported build in 0.1s
+2022.11.06 21:06:29 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:29 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:29 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:29 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:29 INFO  time: indexed workspace in 1.54s
+2022.11.06 21:06:29 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:29 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:29 INFO  time: indexed workspace in 1.59s
+2022.11.06 21:06:29 INFO  compiling vgutilsjs (24 scala sources)
+2022.11.06 21:06:29 INFO  compiling vgutilsjvm (24 scala sources)
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main7062229737509273702.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-1382550847667021340.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main7062229737509273702.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main-1382550847667021340.scala is not a file
+error: /home/skac/Documents/projekty/vgutils/.metals/.tmp/.metals/.tmp/Main7062229737509273702.scala is not a file
+2022.11.06 21:06:31 INFO  time: compiled vgutilsJVM in 2.04s
+2022.11.06 21:06:31 INFO  time: compiled vgutilsJS in 2.04s
+2022.11.06 21:06:31 INFO  compiling vgutilsjvm (24 scala sources)
+2022.11.06 21:06:31 INFO  compiling vgutilsjs (24 scala sources)
+2022.11.06 21:06:31 INFO  time: compiled vgutilsJVM in 0.2s
+2022.11.06 21:06:31 INFO  time: compiled vgutilsJS in 0.21s
+2022.11.06 21:06:34 INFO  Disconnecting from Bloop session...
+2022.11.06 21:06:34 INFO  Shut down connection with build server.
+2022.11.06 21:06:34 INFO  Shut down connection with build server.
+2022.11.06 21:06:34 INFO  Shut down connection with build server.
+2022.11.06 21:06:34 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:34 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:35 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:35 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:35 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:35 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:34 INFO  time: Connected to build server in 0.14s
+2022.11.06 21:06:34 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:06:34 INFO  Disconnecting from Bloop session...
+2022.11.06 21:06:35 INFO  Shut down connection with build server.
+2022.11.06 21:06:35 INFO  Shut down connection with build server.
+2022.11.06 21:06:34 INFO  Shut down connection with build server.
+Nov 06, 2022 9:06:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:257)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:122)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:115)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2022.11.06 21:06:35 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:35 ERROR Failed to connect with build server, no functionality will work.scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: SourcesResult
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$6(BuildServerConnection.scala:358)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:356)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:339)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+Caused by: java.util.concurrent.CancellationException
+	at java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2396)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:151)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:257)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:122)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:115)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.11.06 21:06:35 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:35 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:35 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:35 INFO  Attempting to connect to the build server...
+2022.11.06 21:06:35 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:06:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:06:35 INFO  time: Connected to build server in 0.1s
+2022.11.06 21:06:35 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:06:36 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:36 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:36 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:06:36 INFO  time: indexed workspace in 1.31s
+2022.11.06 21:06:36 INFO  compiling vgutilsjvm (24 scala sources)
+2022.11.06 21:06:36 INFO  compiling vgutilsjs (24 scala sources)
+2022.11.06 21:06:38 INFO  time: compiled vgutilsJVM in 1.42s
+2022.11.06 21:06:38 INFO  time: compiled vgutilsJS in 1.42s
+2022.11.06 21:07:57 INFO  compiling vgutilsjs (24 scala sources)
+2022.11.06 21:07:57 INFO  time: compiled vgutilsJS in 0.21s
+2022.11.06 21:08:18 INFO  compiling vgutilsjs (24 scala sources)
+2022.11.06 21:08:21 INFO  time: compiled vgutilsJS in 2.25s
+2022.11.06 21:09:14 INFO  shutting down Metals
+2022.11.06 21:09:14 INFO  Shut down connection with build server.
+2022.11.06 21:09:14 INFO  Shut down connection with build server.
+2022.11.06 21:09:14 INFO  Shut down connection with build server.
+Nov 06, 2022 9:09:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:257)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:26)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:26)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:26)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.cancel(MetalsLanguageServer.scala:137)
+	at scala.meta.internal.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:1039)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 39 more
+
+2022.11.06 21:09:14 INFO  Cancelling compilation on Bloop server
+2022.11.06 21:09:14 INFO  Cancelling compilation on Bloop server
+2022.11.06 21:09:14 INFO  Cancelling compilation on Bloop server
+2022.11.06 21:09:14 INFO  Cancelling compilation on Bloop server
+2022.11.06 21:09:14 INFO  Cancelling compilation on Bloop server
+2022.11.06 21:09:14 INFO  Cancelling compilation on Bloop server
+2022.11.06 21:09:14 INFO  Cancelling compilation on Bloop server
+2022.11.06 21:09:14 INFO  Cancelling compilation on Bloop server
+2022.11.06 21:09:14 INFO  Cancelling compilation on Bloop server
+2022.11.06 21:09:14 INFO  Cancelling compilation on Bloop server
+2022.11.06 21:09:14 INFO  Cancelling compilation on Bloop server
+2022.11.06 21:09:14 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:09:14 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:09:14 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:09:14 INFO  Cancelling compilation on Bloop server
+2022.11.06 21:09:14 INFO  Cancelling compilation on Bloop server
+2022.11.06 21:09:14 INFO  Cancelling compilation on Bloop server
+2022.11.06 21:09:14 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:09:14 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:09:14 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:09:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:48:21 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/lsp.trace.json or /home/skac/.cache/metals/lsp.trace.json
+2022.11.06 21:48:22 INFO  logging to file /home/skac/Documents/projekty/vgutils/.metals/metals.log
+2022.11.06 21:48:22 INFO  Started: Metals version 0.11.9 in workspace '/home/skac/Documents/projekty/vgutils' for client Visual Studio Code 1.73.0.
+2022.11.06 21:48:24 INFO  time: initialize in 2.68s
+2022.11.06 21:48:26 INFO  Attempting to connect to the build server...
+2022.11.06 21:48:26 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:48:26 INFO  skipping build import with status 'Installed'
+2022.11.06 21:48:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:48:26 INFO  Attempting to connect to the build server...
+2022.11.06 21:48:26 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:48:26 INFO  Attempting to connect to the build server...
+2022.11.06 21:48:26 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/skac/.bloop/bloop.json
+2022.11.06 21:48:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:48:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/skac/Documents/projekty/vgutils/project/project/.metals/bsp.trace.json or /home/skac/.cache/metals/bsp.trace.json
+2022.11.06 21:48:26 INFO  time: Connected to build server in 0.42s
+2022.11.06 21:48:26 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.06 21:48:28 INFO  no build target found for /home/skac/Documents/projekty/vgutils/shared/src/main/scala/com/github/skac112/vgutils/ColorVector.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.06 21:48:28 INFO  time: code lens generation in 2.53s
+2022.11.06 21:48:31 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:48:31 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:48:31 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.06 21:48:31 INFO  time: indexed workspace in 2.5s
+2022.11.06 21:48:31 INFO  compiling vgutilsjvm (24 scala sources)
+2022.11.06 21:48:31 INFO  compiling vgutilsjs (24 scala sources)
+2022.11.06 21:48:32 ERROR Referring to non-existent class org.scalajs.testing.bridge.Bridge
+2022.11.06 21:48:32 ERROR   called from core module module initializers
+2022.11.06 21:48:32 ERROR Referring to non-existent method static org.scalajs.testing.bridge.Bridge.start()void
+2022.11.06 21:48:32 ERROR   called from core module module initializers
+2022.11.06 21:48:32 ERROR JavaScript linking failed with 'There were linking errors'
+2022.11.06 21:48:34 INFO  time: compiled vgutilsJVM in 3.37s
+2022.11.06 21:48:34 INFO  time: compiled vgutilsJS in 3.36s
+2022.11.06 21:48:34 INFO  compiling vgutilsjs (24 scala sources)
+2022.11.06 21:48:37 INFO  time: compiled vgutilsJS in 1.92s
+2022.11.06 21:48:37 INFO  Generated JavaScript file '/home/skac/Documents/projekty/vgutils/.bloop/vgutilsJS/vgutilsJS-test.js'
+2022.11.06 21:48:38 INFO  shutting down Metals
+2022.11.06 21:48:38 INFO  Shut down connection with build server.
+2022.11.06 21:48:38 INFO  Shut down connection with build server.
+Nov 06, 2022 9:48:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:257)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:26)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:26)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:26)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.cancel(MetalsLanguageServer.scala:137)
+	at scala.meta.internal.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:1039)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 39 more
+

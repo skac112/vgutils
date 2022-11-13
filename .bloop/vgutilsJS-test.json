@@ -1,0 +1,269 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "vgutilsJS-test",
+        "directory": "/home/skac/Documents/projekty/vgutils/js",
+        "workspaceDir": "/home/skac/Documents/projekty/vgutils",
+        "sources": [
+            "/home/skac/Documents/projekty/vgutils/js/src/test/scala",
+            "/home/skac/Documents/projekty/vgutils/js/src/test/scala-2.13",
+            "/home/skac/Documents/projekty/vgutils/js/src/test/scala-2",
+            "/home/skac/Documents/projekty/vgutils/js/src/test/java",
+            "/home/skac/Documents/projekty/vgutils/shared/src/test/scala-2.13",
+            "/home/skac/Documents/projekty/vgutils/shared/src/test/scala-2",
+            "/home/skac/Documents/projekty/vgutils/shared/src/test/scala",
+            "/home/skac/Documents/projekty/vgutils/js/target/scala-2.13/src_managed/test"
+        ],
+        "dependencies": [
+            "vgutilsJS"
+        ],
+        "classpath": [
+            "/home/skac/Documents/projekty/vgutils/.bloop/vgutilsJS/scala-2.13/classes",
+            "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar",
+            "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.10.1/scalajs-library_2.13-1.10.1.jar",
+            "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-bridge_2.13/1.10.1/scalajs-test-bridge_2.13-1.10.1.jar",
+            "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_sjs1_2.13/0.8.0/utest_sjs1_2.13-0.8.0.jar",
+            "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.13/1.10.1/scalajs-test-interface_2.13-1.10.1.jar",
+            "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_sjs1_2.13/1.1.2/portable-scala-reflect_sjs1_2.13-1.1.2.jar",
+            "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar"
+        ],
+        "out": "/home/skac/Documents/projekty/vgutils/.bloop/vgutilsJS",
+        "classesDir": "/home/skac/Documents/projekty/vgutils/.bloop/vgutilsJS/scala-2.13/test-classes",
+        "resources": [
+            "/home/skac/Documents/projekty/vgutils/js/src/test/resources",
+            "/home/skac/Documents/projekty/vgutils/shared/src/test/resources",
+            "/home/skac/Documents/projekty/vgutils/js/target/scala-2.13/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.8",
+            "options": [
+                "-Xplugin:/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.10.1/scalajs-compiler_2.13.8-1.10.1.jar"
+            ],
+            "jars": [
+                "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar",
+                "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar",
+                "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar",
+                "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar",
+                "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "js",
+            "config": {
+                "version": "1.10.1",
+                "mode": "debug",
+                "kind": "none",
+                "emitSourceMaps": false,
+                "jsdom": false,
+                "toolchain": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-library_2.13",
+                    "version": "1.10.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-library_2.13",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.10.1/scalajs-library_2.13-1.10.1.jar"
+                        },
+                        {
+                            "name": "scalajs-library_2.13",
+                            "classifier": "sources",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.10.1/scalajs-library_2.13-1.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.8",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-test-bridge_2.13",
+                    "version": "1.10.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-test-bridge_2.13",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-bridge_2.13/1.10.1/scalajs-test-bridge_2.13-1.10.1.jar"
+                        },
+                        {
+                            "name": "scalajs-test-bridge_2.13",
+                            "classifier": "sources",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-bridge_2.13/1.10.1/scalajs-test-bridge_2.13-1.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "utest_sjs1_2.13",
+                    "version": "0.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "utest_sjs1_2.13",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_sjs1_2.13/0.8.0/utest_sjs1_2.13-0.8.0.jar"
+                        },
+                        {
+                            "name": "utest_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_sjs1_2.13/0.8.0/utest_sjs1_2.13-0.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-test-interface_2.13",
+                    "version": "1.10.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-test-interface_2.13",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.13/1.10.1/scalajs-test-interface_2.13-1.10.1.jar"
+                        },
+                        {
+                            "name": "scalajs-test-interface_2.13",
+                            "classifier": "sources",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.13/1.10.1/scalajs-test-interface_2.13-1.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.portable-scala",
+                    "name": "portable-scala-reflect_sjs1_2.13",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "portable-scala-reflect_sjs1_2.13",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_sjs1_2.13/1.1.2/portable-scala-reflect_sjs1_2.13-1.1.2.jar"
+                        },
+                        {
+                            "name": "portable-scala-reflect_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/home/skac/.cache/coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_sjs1_2.13/1.1.2/portable-scala-reflect_sjs1_2.13-1.1.2-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
